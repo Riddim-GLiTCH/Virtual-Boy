@@ -1,0 +1,33 @@
+/* Change Chatfont to FreeMono*/
+:root {
+--Chat-Font-Used: 'FreeMono', Monospace ;
+--Chat-Font-Size: 15.5px;
+}
+:not([class="hljs"]):not(code){
+font-family: var(--Chat-Font-Used)!important;
+}
+
+.markup:not(code) {
+font-size: var(--Chat-Font-Size)!important;
+}
+
+/* Move the message input field for chat messages down to the bottom and pad the sides*/
+.form-3gdLxP {
+    width: 100% !important;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 0px;
+}
+.channelTextArea-1VQBuV {
+    width: 100%;
+}
+.scrollableContainer-15eg7h {
+    max-height: 40vh;
+    border-radius: 0px;
+    padding-bottom: 5px;
+    padding-top: 4px;
+}
+.channelTextArea-1FufC0 {
+    height: 3vh;
+    background-color: var(--background-primary);
+}
