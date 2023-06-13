@@ -342,3 +342,11 @@ main[class^=chatContent] > form > * > [class^=attachedBars] {
     font-weight: 600;
     color: var(--accent);
 }
+/* unread pill */
+.unreadRelevant-2f-VSK {
+    padding-top: 10px;
+    margin-top: -4%;
+    margin-left: 4%;
+    border-radius: 1rem;
+    opacity: 50%;
+}
