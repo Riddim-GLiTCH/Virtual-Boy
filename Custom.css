@@ -282,3 +282,63 @@
     font-size: 14px;
     margin-right: 1px;
   }
+/* ----- Aligned Chatbox ----- */
+/* align edges of chatbox to sides */
+:is(main,section)[class^=chatContent] > form { padding: 0px;  }
+
+/* align chatbox to bottom */
+:is(main,section)[class^=chatContent] > form > *:first-child { margin-bottom: 0px; }
+
+/* center chatbox contents, no border radius */
+:is(main,section)[class^=chatContent] > form > *:first-child > * {
+  padding-top: 4px;
+  min-height: 49px;
+  border-radius: 0px;
+}
+
+/* slowmode/typing indicator */
+:is(main,section)[class^=chatContent] > form > *:last-child[class^=typing] {
+  top: -24px;
+  right: 0px;
+  margin-left: auto;
+  width: fit-content;
+  padding-left: 2px;
+  padding-right: 9px;
+  border-top-left-radius: 8px;
+  background-color: var(--channeltextarea-background);
+}
+
+/* Fix replies */
+main[class^=chatContent] > form > * > [class^=attachedBars] {
+  min-height: unset !important;
+  padding-bottom: 4px;
+}
+
+/* jump to present */
+[class^=jumpToPresentBar] {
+  left: 0;
+  border-radius: 0px;
+  border-top-right-radius: 8px;
+  opacity: 1;
+  background-color: var(--channeltextarea-background);
+  right: unset;
+}
+[class^=jumpToPresentBar] > [class^=barButtonMain] {
+  flex: 0 0 auto;
+  display: none;
+}
+.wordmarkWindows-2dq6rw svg {
+    display: none;
+}
+.wordmarkWindows-2dq6rw::after {
+    content: 'Redoled by N14';
+    display: block;
+    position: relative;
+    width: 200px;
+    height: 16px;
+    line-height: 16px;
+    font-family: var(--font-headline);
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--accent);
+}
