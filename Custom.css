@@ -1,13 +1,52 @@
 /*imports*/
-@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
-@import url('https://blade04208.github.io/css/SignIt/titlebar.css');
 @import url('https://blade04208.github.io/css/SignIt/settings.css');
+@import url(//dablulite.github.io/css-snippets/AccountDetailsGrid/import.css);
+@import url(https://minidiscordthemes.github.io/Squared/sq.min.css);
+@import url("https://saltssaumure.github.io/misc-discord-themes/snippets/SettingsAsOverlay.css");
 
 /*Variables IG*/
 :root {
 --accent: rgb(255, 0, 0);
 --accent-muted: rgb(131, 0, 0);
 };
+
+/* This is where the CSS junk starts. */
+
+
+/* Floating Folder */
+.wrapper-38slSD:active {
+    -webkit-transform: unset;
+    transform: none;
+}
+
+[id^="folder-items-"] {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 99;
+    overflow-y: auto;
+    max-height: calc(100vh - 72px);
+    margin: auto auto auto calc(72px + 8px);
+    padding-top: 8px;
+    border-radius: 8px;
+    background: var(--background-floating);
+    -webkit-box-shadow: var(--elevation-high);
+    box-shadow: var(--elevation-high);
+}
+
+[id^="folder-items-"]::-webkit-scrollbar {
+    display: none;
+}
+
+.folderIconWrapper-1oRIZr {
+    transform: rotate(-90deg);
+}
+
+.closedFolderIconWrapper-3tRb2d .icon-1zKOXL,
+.expandedFolderIconWrapper-3RwQpD svg {
+    transform: rotate(90deg);
+}
+
 :root {
     --sign-text:'Redoled by N14'; /*Replace me */
     --sign-color: var(--accent); /* I suggest this */
@@ -26,7 +65,7 @@
     /*
       * Shape
       */
-    --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
+    --rs-avatar-shape: 0%; /* 50% for round - 0% for square */
     /*
       * Colours
       */
@@ -43,7 +82,7 @@
     /*
       * Others
       */
-    --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+    --rs-phone-visible: none; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
   }
 .theme-dark{
         --font-primary: "Turret Road";
@@ -327,6 +366,7 @@ main[class^=chatContent] > form > * > [class^=attachedBars] {
   flex: 0 0 auto;
   display: none;
 }
+
 .wordmarkWindows-2dq6rw svg {
     display: none;
 }
@@ -347,6 +387,6 @@ main[class^=chatContent] > form > * > [class^=attachedBars] {
     padding-top: 10px;
     margin-top: -4%;
     margin-left: 4%;
-    border-radius: 1rem;
+    border-radius: 0rem;
     opacity: 50%;
 }
