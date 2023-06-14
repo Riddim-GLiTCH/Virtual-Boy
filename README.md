@@ -1,4 +1,5 @@
-# Redoled - An amoled discord theme with strong emphasis on red accents
+![0167d2ae-d1dd-41d1-98d7-57a368ba5c3a](https://github.com/Riddim-GLiTCH/Redoled/assets/87764384/a2dd126c-e2a1-4b6a-a629-4c5d56a61f53)
+---
 Looking for previews? Check [previews.md](https://github.com/Riddim-GLiTCH/Redoled/blob/main/previews.md)
 ## Why this theme? 
 This theme originally started out as a simple collection of small CSS snipets. In memory of a previous relationship, with whom I used to maintain a theme together, I wanted to invest more time into my own.
