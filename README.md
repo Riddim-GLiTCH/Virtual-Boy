@@ -7,3 +7,6 @@ This theme was originally meant to be for personal use only, but I figured it wo
 
 ## Can I modify this theme for personal use?
 Yes, BUT. if you want to publish it, I kindly ask of you to link back to this repository, and make sure people know its based of this. But honestly, why would you. Its pretty ugly.
+
+## Contribution?
+Yes please? Help is always appreciated! Just make a [pull request](https://github.com/Riddim-GLiTCH/Redoled/pulls), or let me know what I should add/fix in [issues](https://github.com/Riddim-GLiTCH/Redoled/issues)!
