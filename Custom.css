@@ -13,40 +13,6 @@
 /* This is where the CSS junk starts. */
 
 
-/* Floating Folder */
-.wrapper-38slSD:active {
-    -webkit-transform: unset;
-    transform: none;
-}
-
-[id^="folder-items-"] {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    z-index: 99;
-    overflow-y: auto;
-    max-height: calc(100vh - 72px);
-    margin: auto auto auto calc(72px + 8px);
-    padding-top: 8px;
-    border-radius: 8px;
-    background: var(--background-floating);
-    -webkit-box-shadow: var(--elevation-high);
-    box-shadow: var(--elevation-high);
-}
-
-[id^="folder-items-"]::-webkit-scrollbar {
-    display: none;
-}
-
-.folderIconWrapper-1oRIZr {
-    transform: rotate(-90deg);
-}
-
-.closedFolderIconWrapper-3tRb2d .icon-1zKOXL,
-.expandedFolderIconWrapper-3RwQpD svg {
-    transform: rotate(90deg);
-}
-
 :root {
     --sign-text:'Redoled by N14'; /*Replace me */
     --sign-color: var(--accent); /* I suggest this */
