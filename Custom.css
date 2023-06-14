@@ -13,6 +13,12 @@
 
 /* This is where the CSS junk starts. */
 
+button[aria-label="Send a gift"] {
+    display: none;
+}
+button[aria-label="Send a gift"] {
+    display: none;
+}
 
 :root {
     --sign-text:'Redoled by N14'; /*Replace me */
