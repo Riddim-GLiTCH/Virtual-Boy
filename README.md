@@ -1,5 +1,8 @@
 # Redoled - An amoled discord theme with strong emphasis on red accents
-![preview](https://n14.hacked-your.tech/content/cdn/XYmOGqHaxiBp.png)
+![preview](https://N14.hacked-your.tech/content/cdn/oujGtNGxnLNQ.png)
+![profile popout preview](https://N14.hacked-your.tech/content/cdn/uCbHItQXcCBr.png)
+![profile modal preview](https://N14.hacked-your.tech/content/cdn/PXurEIjANpJx.png)
+![settings preview](https://N14.hacked-your.tech/content/cdn/gXqXnZqzXzWP.png)
 ## Why this theme?
 This theme originally started out as a simple collection of small CSS snipets. In memory of a previous relationship, with whom I used to maintain a theme together, I wanted to invest more time into my own.
 This theme was originally meant to be for personal use only, but I figured it would be easier to maintain via github. So I decided to release it.
