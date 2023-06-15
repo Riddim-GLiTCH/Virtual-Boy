@@ -3,8 +3,7 @@
 @import url(//dablulite.github.io/css-snippets/AccountDetailsGrid/import.css);
 @import url(https://minidiscordthemes.github.io/Squared/sq.min.css);
 @import url("https://saltssaumure.github.io/misc-discord-themes/snippets/SettingsAsOverlay.css");
-@import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@200;300;400;500;700;800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Turret+Road:wght@200;300;400;500;700;800&display=swap');
 /*Variables IG*/
 :root {
 --accent: rgb(255, 0, 0);
@@ -58,7 +57,7 @@ button[aria-label="Send a gift"] {
     --rs-phone-visible: none; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
   }
 .theme-dark{
-        --font-primary: "Turret Road";
+        --font-primary: "Press Start 2P";
         --activity-card-background: var(--primary-700);
         --android-navigation-bar-background: var(--primary-830);
         --android-navigation-scrim-background: hsl(var(--primary-830-hsl)/0.5);
