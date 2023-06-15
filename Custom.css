@@ -20,6 +20,7 @@ button[aria-label="Send a gift"] {
 }
 
 :root {
+    --font-primary: "Press Start 2P";
     --sign-text:'Redoled by N14'; /*Replace me */
     --sign-color: var(--accent); /* I suggest this */
     /*
@@ -57,7 +58,6 @@ button[aria-label="Send a gift"] {
     --rs-phone-visible: none; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
   }
 .theme-dark{
-        --font-primary: "Press Start 2P";
         --activity-card-background: var(--primary-700);
         --android-navigation-bar-background: var(--primary-830);
         --android-navigation-scrim-background: hsl(var(--primary-830-hsl)/0.5);
