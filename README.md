@@ -1,4 +1,5 @@
-![0167d2ae-d1dd-41d1-98d7-57a368ba5c3a](https://github.com/Riddim-GLiTCH/Redoled/assets/87764384/a2dd126c-e2a1-4b6a-a629-4c5d56a61f53)
+![image](https://github.com/Riddim-GLiTCH/Virtual-Boy/assets/87764384/ad1ed967-2cee-479c-a4b2-b781fe531494)
+
 ---
 Looking for previews? Check [previews.md](https://github.com/Riddim-GLiTCH/Redoled/blob/main/previews.md)
 ## Why this theme? 
