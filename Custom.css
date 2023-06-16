@@ -5,59 +5,10 @@
 @import url("https://saltssaumure.github.io/misc-discord-themes/snippets/SettingsAsOverlay.css");
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Turret+Road:wght@200;300;400;500;700;800&display=swap');
 /*Variables IG*/
-:root {
---accent: rgb(255, 0, 0);
---accent-muted: rgb(131, 0, 0);
-};
-
-/* This is where the CSS junk starts. */
-
-button[aria-label="Send a gift"] {
-    display: none;
-}
-button[aria-label="Send a gift"] {
-    display: none;
-}
-
-:root {
-    --font-primary: "Press Start 2P";
-    --sign-text:'Redoled by N14'; /*Replace me */
-    --sign-color: var(--accent); /* I suggest this */
-    /*
-      * Spacing
-      */
-    --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
-    --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
-    --rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
-    /*
-      * Widths
-      */
-    --rs-small-width: 2px; /* Thickness of status border for members list/dms | MUST end in px */
-    --rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
-    --rs-large-width: 4px; /* Thickness of status border for User profile | MUST end in px */
-    /*
-      * Shape
-      */
-    --rs-avatar-shape: 0%; /* 50% for round - 0% for square */
-    /*
-      * Colours
-      */
-    --rs-online-color: #43b581; /* Colour for online status */
-    --rs-idle-color: #faa61a; /* Colour for idle status */
-    --rs-dnd-color: #f04747; /* Colour for dnd status */
-    --rs-offline-color: #636b75; /* Colour for offline status */
-    --rs-streaming-color: #643da7; /* Colour for streaming status */
-    --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
-    --rs-self-speaking-color: #57d39b; /* Colour for speaking ring in the bottom left while in a voice chat/call */
-    --rs-phone-color: var(
-        --rs-online-color
-    ); /* Colour of the ring and phone icon when a user is on their phone  */
-    /*
-      * Others
-      */
-    --rs-phone-visible: none; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
-  }
 .theme-dark{
+        --font-primary: "Press Start 2P";
+        --font-code: "press Start 2P";
+        --font-display: "Press Start 2P";
         --activity-card-background: var(--primary-700);
         --android-navigation-bar-background: var(--primary-830);
         --android-navigation-scrim-background: hsl(var(--primary-830-hsl)/0.5);
@@ -270,6 +221,61 @@ button[aria-label="Send a gift"] {
         --user-profile-header-overflow-background: hsl(var(--primary-700-hsl)/0.5);
         --white: var(--white-500);
 }
+:root {
+--accent: rgb(255, 0, 0);
+--accent-muted: rgb(131, 0, 0);
+};
+/* This is where the CSS junk starts. */
+
+button[aria-label="Send a gift"] {
+    display: none;
+}
+button[aria-label="Send a gift"] {
+    display: none;
+}
+
+:root {
+    font-family: "Press Start 2P";
+    font-display: "Press Start 2P";
+    font-style: cursive;
+    --font-primary: "Press Start 2P";
+    --sign-text:'VIRTUAL BOY'; /*Replace me */
+    --sign-color: var(--accent); /* I suggest this */
+    /*
+      * Spacing
+      */
+    --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
+    --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
+    --rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
+    /*
+      * Widths
+      */
+    --rs-small-width: 2px; /* Thickness of status border for members list/dms | MUST end in px */
+    --rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
+    --rs-large-width: 4px; /* Thickness of status border for User profile | MUST end in px */
+    /*
+      * Shape
+      */
+    --rs-avatar-shape: 0%; /* 50% for round - 0% for square */
+    /*
+      * Colours
+      */
+    --rs-online-color: #43b581; /* Colour for online status */
+    --rs-idle-color: #faa61a; /* Colour for idle status */
+    --rs-dnd-color: #f04747; /* Colour for dnd status */
+    --rs-offline-color: #636b75; /* Colour for offline status */
+    --rs-streaming-color: #643da7; /* Colour for streaming status */
+    --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
+    --rs-self-speaking-color: #57d39b; /* Colour for speaking ring in the bottom left while in a voice chat/call */
+    --rs-phone-color: var(
+        --rs-online-color
+    ); /* Colour of the ring and phone icon when a user is on their phone  */
+    /*
+      * Others
+      */
+    --rs-phone-visible: none; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+  }
+
 .theme-dark .autocomplete-3NRXG8 {
     background-color: rgb(8,8,8);
 }
@@ -343,13 +349,13 @@ main[class^=chatContent] > form > * > [class^=attachedBars] {
     display: none;
 }
 .wordmarkWindows-2dq6rw::after {
-    content: 'Redoled by N14';
+    content: 'VIRTUAL BOY';
     display: block;
     position: relative;
     width: 200px;
     height: 16px;
     line-height: 16px;
-    font-family: var(--font-headline);
+    font-family: var(--font-display);
     font-size: 11px;
     font-weight: 600;
     color: var(--accent);
@@ -361,4 +367,20 @@ main[class^=chatContent] > form > * > [class^=attachedBars] {
     margin-left: 4%;
     border-radius: 0rem;
     opacity: 50%;
+}
+span[class*=username-][class*=desaturateUserColors-][class*=clickable] {
+  font-weight: 1000;
+  font-style: italic;
+}
+
+[class*=markup-][class*=messageContent-]:not([class*=repliedTextPreview-][class*=clickable-] > div) {
+    margin: 5px 0 5px 0;
+    padding: 5px 10px 5px 10px;
+    width: fit-content;
+    border-style: solid;
+    border-width: 2px;  
+    border-radius: 0.em;
+    border-color: #ff0000;
+    background: linear-gradient(to right, #660000, #5f000025);
+    box-shadow: -6px 6px 0px 0px #00000025;
 }
