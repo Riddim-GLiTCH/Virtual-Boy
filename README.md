@@ -6,6 +6,11 @@ Looking for previews? Check [previews.md](https://github.com/Riddim-GLiTCH/Redol
 This theme originally started out as a simple collection of small CSS snipets. In memory of a previous relationship, with whom I used to maintain a theme together, I wanted to invest more time into my own.
 This theme was originally meant to be for personal use only, but I figured it would be easier to maintain via github. So I decided to release it.
 
+## Dont like the colors? No Worries!
+Just change these two values to match the color to your liking!
+
+![How To change accents](https://N14.hacked-your.tech/content/cdn/nMCQPngnCcpu.png)
+
 ## Can I modify this theme for personal use?
 Yes, BUT. if you want to publish it, I kindly ask of you to link back to this repository, and make sure people know its based of this. But honestly, why would you. Its pretty ugly.
 
