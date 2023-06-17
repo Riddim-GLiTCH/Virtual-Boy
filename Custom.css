@@ -223,7 +223,7 @@
 }
 :root {
 --accent: rgb(255, 0, 0);
---accent-muted: rgb(131, 0, 0);
+--accent-muted: rgb(124, 0, 0);
 };
 /* This is where the CSS junk starts. */
 
@@ -239,8 +239,8 @@ button[aria-label="Send a gift"] {
     font-display: "Press Start 2P";
     font-style: cursive;
     --font-primary: "Press Start 2P";
-    --sign-text:'VIRTUAL BOY'; /*Replace me */
-    --sign-color: var(--accent); /* I suggest this */
+    --sign-text:'VIRTUAL BOY PRE-RELEASE DEV BUILD'; 
+    --sign-color: var(--accent-muted); 
     /*
       * Spacing
       */
@@ -370,8 +370,7 @@ main[class^=chatContent] > form > * > [class^=attachedBars] {
 }
 span[class*=username-][class*=desaturateUserColors-][class*=clickable] {
   font-weight: 1000;
-  font-style: italic;
-}
+ }
 
 [class*=markup-][class*=messageContent-]:not([class*=repliedTextPreview-][class*=clickable-] > div) {
     margin: 5px 0 5px 0;
@@ -380,7 +379,7 @@ span[class*=username-][class*=desaturateUserColors-][class*=clickable] {
     border-style: solid;
     border-width: 2px;  
     border-radius: 0.em;
-    border-color: #ff0000;
-    background: linear-gradient(to right, #660000, #5f000025);
+    border-color: --accent;
+    background: linear-gradient(to right,  var(--accent-muted), #5f000025);
     box-shadow: -6px 6px 0px 0px #00000025;
 }
