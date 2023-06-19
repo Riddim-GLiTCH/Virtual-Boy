@@ -229,8 +229,8 @@
 }
 
 /* This is where the CSS junk starts. */
-*{
-   border-radius: 0px !important;
+.field-21XZwa .fieldButton-14lHvK {
+  border-radius: 0px;
 };
 button[aria-label="Send a gift"] {
     display: none;
