@@ -9,7 +9,8 @@ This theme was originally meant to be for personal use only, but I figured it wo
 ## Dont like the colors? No Worries!
 Just change these two values to match the color to your liking!
 
-![How To change accents](https://N14.hacked-your.tech/content/cdn/nMCQPngnCcpu.png)
+![chrome_ECmbKo2rbu](https://github.com/Riddim-GLiTCH/Virtual-Boy/assets/87764384/5a6e4954-378a-4c7f-be3e-de4ad25b20dc)
+
 
 ## Can I modify this theme for personal use?
 Yes, BUT. if you want to publish it, I kindly ask of you to link back to this repository, and make sure people know its based of this. But honestly, why would you. Its pretty ugly.
