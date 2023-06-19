@@ -244,7 +244,7 @@ button[aria-label="Send a gift"] {
     font-display: "Press Start 2P";
     font-style: cursive;
     --font-primary: "Press Start 2P";
-    --sign-text:'VIRTUAL BOY PRE-RELEASE DEV BUILD'; 
+    --sign-text:'VIRTUAL BOY Version 1.0-main'; 
     --sign-color: var(--accent-muted);
     text-shadow: 0 0 3px var(--accent); 
     /*
@@ -355,7 +355,7 @@ main[class^=chatContent] > form > * > [class^=attachedBars] {
     display: none;
 }
 .wordmarkWindows-2dq6rw::after {
-    content: 'VIRTUAL BOY Ver. DEV';
+    content: 'VIRTUAL BOY V1.0';
     display: block;
     position: relative;
     width: 2000px;
@@ -386,4 +386,14 @@ span[class*=username-][class*=desaturateUserColors-][class*=clickable] {
     border-color: --accent;
     background: linear-gradient(to right,  var(--accent-dimmest), var(--background-primary));
     box-shadow: -6px 6px 0px 0px var(--accent-muted)
+}
+/* Reduced enhanced markdown margins */
+[class^=message] [id^=message-content] :is(h1, h2, h3, li) {
+    margin: 0px;
+  }
+  [class^=message] [id^=message-content] :is(ol, ul) {
+    margin-top: 0px;
+  }
+  [class|=userPopoutInner] [style*="-webkit-line-clamp"] {
+    -webkit-line-clamp: 99999 !important;
 }
