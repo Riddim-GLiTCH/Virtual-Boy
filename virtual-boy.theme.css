@@ -1,0 +1,8 @@
+
+:root{
+        /*Dont like the colors? Change these variables!*/
+        --accent: rgb(255, 0, 0);
+        --accent-muted: rgb(124, 0, 0);
+        --accent-dimmest: rgb(59, 0, 0);
+        /*End of user editable variables. Proceed past this point with caution!*/
+}
