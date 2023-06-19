@@ -224,6 +224,7 @@
 :root {
 --accent: rgb(255, 0, 0);
 --accent-muted: rgb(124, 0, 0);
+--accent-dimmest: rgba(99, 0, 0, 0.5);
 };
 /* This is where the CSS junk starts. */
 
@@ -240,7 +241,8 @@ button[aria-label="Send a gift"] {
     font-style: cursive;
     --font-primary: "Press Start 2P";
     --sign-text:'VIRTUAL BOY PRE-RELEASE DEV BUILD'; 
-    --sign-color: var(--accent-muted); 
+    --sign-color: var(--accent-muted);
+    text-shadow: 0 0 5px var(--accent); 
     /*
       * Spacing
       */
@@ -349,10 +351,10 @@ main[class^=chatContent] > form > * > [class^=attachedBars] {
     display: none;
 }
 .wordmarkWindows-2dq6rw::after {
-    content: 'VIRTUAL BOY';
+    content: 'VIRTUAL BOY Ver. DEV';
     display: block;
     position: relative;
-    width: 200px;
+    width: 2000px;
     height: 16px;
     line-height: 16px;
     font-family: var(--font-display);
@@ -380,6 +382,6 @@ span[class*=username-][class*=desaturateUserColors-][class*=clickable] {
     border-width: 2px;  
     border-radius: 0.em;
     border-color: --accent;
-    background: linear-gradient(to right,  var(--accent-muted), #5f000025);
+    background: linear-gradient(to right,  var(--accent-dimmest), #5f000025);
     box-shadow: -6px 6px 0px 0px #00000025;
 }
