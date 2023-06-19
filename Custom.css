@@ -5,7 +5,19 @@
 @import url("https://saltssaumure.github.io/misc-discord-themes/snippets/SettingsAsOverlay.css");
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Turret+Road:wght@200;300;400;500;700;800&display=swap');
 /*Variables IG*/
-.theme-dark{
+:root{
+        /*Dont like the colors? Change these variables!*/
+        --accent: rgb(255, 0, 0);
+        --accent-muted: rgb(124, 0, 0);
+        --accent-dimmest: rgb(59, 0, 0);
+        /*End of user editable variables. Proceed past this point with caution!*/
+
+        --brand-experiment-10a: var(--accent-muted);
+        --brand-experiment-05a: var(--accent-dimmest);
+        --brand-experiment: var(--accent);
+        --primary-630-hsl: var(--background-secondary);
+        --primary-600: var(--background-primary);
+        --font-headline: "Press Start 2P";
         --font-primary: "Press Start 2P";
         --font-code: "press Start 2P";
         --font-display: "Press Start 2P";
@@ -15,19 +27,19 @@
         --android-ripple: hsl(var(--white-500-hsl)/0.07);
         --background-accent: var(--accent-muted);
         --background-floating: rgb(5,5,5);
-        --background-mentioned: hsl(var(--red-500-hsl)/0.1);
-        --background-mentioned-hover: hsl(var(--red-500-hsl)/0.08);
+        --background-mentioned: var(--accent-dimmest);
+        --background-mentioned-hover: var(--accent-muted);
         --background-message-automod: hsl(var(--red-400-hsl)/0.05);
         --background-message-automod-hover: hsl(var(--red-400-hsl)/0.1);
-        --background-message-highlight: hsl(var(--red-400-hsl)/0.08);
-        --background-message-highlight-hover: hsl(var(--red-400-hsl)/0.06);
-        --background-message-hover: hsl(var(--red-400-hsl)/0.06);
+        --background-message-highlight: var(--accent-muted);
+        --background-message-highlight-hover: var(--accent-muted);
+        --background-message-hover: var(--accent-muted);
         --background-mobile-primary: var(--primary-600);
         --background-mobile-secondary: var(--primary-630);
-        --background-modifier-accent: hsl(var(--red-500-hsl)/0.48);
-        --background-modifier-active: hsl(var(--red-500-hsl)/0.48);
-        --background-modifier-hover: hsl(var(--red-500-hsl)/0.3);
-        --background-modifier-selected: hsl(var(--red-600-hsl)/0.6);
+        --background-modifier-accent: var(--accent);
+        --background-modifier-active: var(--accent-muted);
+        --background-modifier-hover: var(--accent-muted);
+        --background-modifier-selected: var(--accent-muted);
         --background-nested-floating: rgb(5,5,5);
         --background-primary: rgb(0,0,0);
         --background-secondary: rgb(2,2,2);
@@ -81,7 +93,7 @@
         --button-positive-background-active: var(--green-530);
         --button-positive-background-disabled: var(--green-430);
         --button-positive-background-hover: var(--green-500);
-        --button-secondary-background: var(--primary-500);
+        --button-secondary-background: var(--accent);
         --button-secondary-background-active: var(--primary-400);
         --button-secondary-background-disabled: var(--primary-500);
         --button-secondary-background-hover: var(--primary-430);
@@ -124,15 +136,15 @@
         --info-positive-background: hsl(var(--green-360-hsl)/0.1);
         --info-positive-foreground: var(--green-360);
         --info-positive-text: var(--white-500);
-        --info-warning-background: hsl(var(--red-300-hsl)/0.1);
-        --info-warning-foreground: var(--red-500);
+        --info-warning-background: var(--accent);
+        --info-warning-foreground: var(--accent);
         --info-warning-text: var(--white-500);
         --input-background: var(--primary-700);
         --input-placeholder-text: var(--input-placeholder-text-dark);
         --interactive-active: var(--accent);
         --interactive-hover: var(--accent);
         --interactive-muted: var(--primary-500);
-        --interactive-normal: var(--primary-330);
+        --interactive-normal: var(--accent);
         --live-stage-tile-border: hsl(var(--primary-500-hsl)/0.6);
         --logo-primary: var(--white-500);
         --mention-background: var(--accent);
@@ -211,8 +223,8 @@
         --status-warning-text: var(--black-500);
         --text-brand: var(--brand-360);
         --text-danger: var(--red-345);
-        --text-link: var(--blue-345);
-        --text-link-low-saturation: var(--blue-330);
+        --text-link: var(--accent);
+        --text-link-low-saturation: var(--accent-muted);
         --text-muted: var(--accent-muted);
         --text-normal: var(--accent);
         --text-positive: var(--green-330);
@@ -221,13 +233,11 @@
         --user-profile-header-overflow-background: hsl(var(--primary-700-hsl)/0.5);
         --white: var(--white-500);
 }
-:root {
---accent: rgb(255, 0, 0);
---accent-muted: rgb(124, 0, 0);
---accent-dimmest: rgba(99, 0, 0, 0.5);
-};
-/* This is where the CSS junk starts. */
 
+/* This is where the CSS junk starts. */
+*{
+   border-radius: 0px !important;
+};
 button[aria-label="Send a gift"] {
     display: none;
 }
@@ -242,7 +252,7 @@ button[aria-label="Send a gift"] {
     --font-primary: "Press Start 2P";
     --sign-text:'VIRTUAL BOY PRE-RELEASE DEV BUILD'; 
     --sign-color: var(--accent-muted);
-    text-shadow: 0 0 5px var(--accent); 
+    text-shadow: 0 0 3px var(--accent); 
     /*
       * Spacing
       */
@@ -323,7 +333,7 @@ button[aria-label="Send a gift"] {
   width: fit-content;
   padding-left: 2px;
   padding-right: 9px;
-  border-top-left-radius: 8px;
+  border-top-left-radius: 0px;
   background-color: var(--channeltextarea-background);
 }
 
@@ -337,7 +347,7 @@ main[class^=chatContent] > form > * > [class^=attachedBars] {
 [class^=jumpToPresentBar] {
   left: 0;
   border-radius: 0px;
-  border-top-right-radius: 8px;
+  border-top-right-radius: 0px;
   opacity: 1;
   background-color: var(--channeltextarea-background);
   right: unset;
@@ -364,10 +374,9 @@ main[class^=chatContent] > form > * > [class^=attachedBars] {
 }
 /* unread pill */
 .unreadRelevant-2f-VSK {
-    padding-top: 10px;
-    margin-top: -4%;
+    padding-top: 22px;
+    margin-top: -1%;
     margin-left: 4%;
-    border-radius: 0rem;
     opacity: 50%;
 }
 span[class*=username-][class*=desaturateUserColors-][class*=clickable] {
@@ -380,8 +389,7 @@ span[class*=username-][class*=desaturateUserColors-][class*=clickable] {
     width: fit-content;
     border-style: solid;
     border-width: 2px;  
-    border-radius: 0.em;
     border-color: --accent;
-    background: linear-gradient(to right,  var(--accent-dimmest), #5f000025);
-    box-shadow: -6px 6px 0px 0px #00000025;
+    background: linear-gradient(to right,  var(--accent-dimmest), var(--background-primary));
+    box-shadow: -6px 6px 0px 0px var(--accent-muted)
 }
