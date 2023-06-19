@@ -3,18 +3,17 @@
 @import url(//dablulite.github.io/css-snippets/AccountDetailsGrid/import.css);
 @import url(https://minidiscordthemes.github.io/Squared/sq.min.css);
 @import url("https://saltssaumure.github.io/misc-discord-themes/snippets/SettingsAsOverlay.css");
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Turret+Road:wght@200;300;400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 /*Variables IG*/
-:root{
         --brand-experiment-10a: var(--accent-muted);
         --brand-experiment-05a: var(--accent-dimmest);
         --brand-experiment: var(--accent);
         --primary-630-hsl: var(--background-secondary);
         --primary-600: var(--background-primary);
-        --font-headline: "Press Start 2P";
-        --font-primary: "Press Start 2P";
-        --font-code: "press Start 2P";
-        --font-display: "Press Start 2P";
+        --font-headline: var(--font);
+        --font-primary: var(--font);
+        --font-code: var(--font);
+        --font-display: var(--font);
         --activity-card-background: var(--primary-700);
         --android-navigation-bar-background: var(--primary-830);
         --android-navigation-scrim-background: hsl(var(--primary-830-hsl)/0.5);
@@ -240,11 +239,8 @@ button[aria-label="Send a gift"] {
 }
 
 :root {
-    font-family: "Press Start 2P";
-    font-display: "Press Start 2P";
     font-style: cursive;
-    --font-primary: "Press Start 2P";
-    --sign-text:'VIRTUAL BOY Version 1.0-main'; 
+    --sign-text:'VIRTUAL BOY Version 1.0-dev-01'; 
     --sign-color: var(--accent-muted);
     text-shadow: 0 0 3px var(--accent); 
     /*
@@ -300,7 +296,6 @@ button[aria-label="Send a gift"] {
   .userTagWithNickname-13lfvd::before {
     content: "@";
     color: var(--header-primary);
-    font-family: var(--font-primary);
     line-height: 18px;
     font-size: 14px;
     margin-right: 1px;
@@ -355,7 +350,7 @@ main[class^=chatContent] > form > * > [class^=attachedBars] {
     display: none;
 }
 .wordmarkWindows-2dq6rw::after {
-    content: 'VIRTUAL BOY V1.0';
+    content: 'VIRTUAL BOY V1.0-dev-01';
     display: block;
     position: relative;
     width: 2000px;
@@ -383,7 +378,7 @@ span[class*=username-][class*=desaturateUserColors-][class*=clickable] {
     width: fit-content;
     border-style: solid;
     border-width: 2px;  
-    border-color: --accent;
+    border-color: var(--accent);
     background: linear-gradient(to right,  var(--accent-dimmest), var(--background-primary));
     box-shadow: -6px 6px 0px 0px var(--accent-muted)
 }
