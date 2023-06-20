@@ -3,10 +3,13 @@
 @import url(//dablulite.github.io/css-snippets/AccountDetailsGrid/import.css);
 @import url(https://minidiscordthemes.github.io/Squared/sq.min.css);
 @import url("https://saltssaumure.github.io/misc-discord-themes/snippets/SettingsAsOverlay.css");
-@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 /*Variables IG*/
 :root{
-        --font: "Silkscreen";
+        --font: "VT323";
+        --accent: rgb(255, 0, 0);
+        --accent-muted: rgb(124, 0, 0);
+        --accent-dimmest: rgb(59, 0, 0);
         --brand-experiment-10a: var(--accent-muted);
         --brand-experiment-05a: var(--accent-dimmest);
         --brand-experiment: var(--accent);
@@ -241,8 +244,7 @@ button[aria-label="Send a gift"] {
 }
 
 :root {
-    font-style: cursive;
-    --sign-text:'VIRTUAL BOY Version 1.0-dev-01'; 
+    --sign-text:'VIRTUAL BOY Version 1.0-dev-02'; 
     --sign-color: var(--accent-muted);
     text-shadow: 0 0 3px var(--accent); 
     /*
@@ -280,6 +282,9 @@ button[aria-label="Send a gift"] {
     --rs-phone-visible: none; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
   }
 
+a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
+          font-size: 102% !important;
+}
 .theme-dark .autocomplete-3NRXG8 {
     background-color: rgb(8,8,8);
 }
@@ -352,7 +357,7 @@ main[class^=chatContent] > form > * > [class^=attachedBars] {
     display: none;
 }
 .wordmarkWindows-2dq6rw::after {
-    content: 'VIRTUAL BOY V1.0-dev-01';
+    content: 'VIRTUAL BOY V1.0-dev-02';
     display: block;
     position: relative;
     width: 2000px;
