@@ -5,6 +5,7 @@
 @import url("https://saltssaumure.github.io/misc-discord-themes/snippets/SettingsAsOverlay.css");
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 /*Variables IG*/
+:root{
         --brand-experiment-10a: var(--accent-muted);
         --brand-experiment-05a: var(--accent-dimmest);
         --brand-experiment: var(--accent);
