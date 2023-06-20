@@ -244,7 +244,7 @@ button[aria-label="Send a gift"] {
 }
 
 :root {
-    --sign-text:'VIRTUAL BOY Version 1.0-dev-02'; 
+    --sign-text:'VIRTUAL BOY Version 1.0-main-02'; 
     --sign-color: var(--accent-muted);
     text-shadow: 0 0 3px var(--accent); 
     /*
@@ -357,7 +357,7 @@ main[class^=chatContent] > form > * > [class^=attachedBars] {
     display: none;
 }
 .wordmarkWindows-2dq6rw::after {
-    content: 'VIRTUAL BOY V1.0-dev-02';
+    content: 'VIRTUAL BOY V1.0-main-02';
     display: block;
     position: relative;
     width: 2000px;
