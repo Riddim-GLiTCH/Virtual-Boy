@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 /*Variables IG*/
 :root{
+        --font: "Silkscreen";
         --brand-experiment-10a: var(--accent-muted);
         --brand-experiment-05a: var(--accent-dimmest);
         --brand-experiment: var(--accent);
