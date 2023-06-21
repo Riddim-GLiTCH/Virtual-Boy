@@ -7,9 +7,6 @@
 /*Variables IG*/
 :root{
         --font: "VT323";
-        --accent: rgb(255, 0, 0);
-        --accent-muted: rgb(124, 0, 0);
-        --accent-dimmest: rgb(59, 0, 0);
         --brand-experiment-10a: var(--accent-muted);
         --brand-experiment-05a: var(--accent-dimmest);
         --brand-experiment: var(--accent);
@@ -244,7 +241,7 @@ button[aria-label="Send a gift"] {
 }
 
 :root {
-    --sign-text:'VIRTUAL BOY Version 1.0-main-02'; 
+    --sign-text:'VIRTUAL BOY Version 1.0-main-03'; 
     --sign-color: var(--accent-muted);
     text-shadow: 0 0 3px var(--accent); 
     /*
@@ -294,7 +291,6 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
     content: "@";
     color: var(--header-secondary);
     line-height: 24px;
-    font-size: 14px;
     font-weight: 600;
     font-family: var(--font-display);
     margin-right: 1px;
@@ -304,7 +300,6 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
     content: "@";
     color: var(--header-primary);
     line-height: 18px;
-    font-size: 14px;
     margin-right: 1px;
   }
 /* ----- Aligned Chatbox ----- */
@@ -357,14 +352,13 @@ main[class^=chatContent] > form > * > [class^=attachedBars] {
     display: none;
 }
 .wordmarkWindows-2dq6rw::after {
-    content: 'VIRTUAL BOY V1.0-main-02';
+    content: 'VIRTUAL BOY V1.0-main-03';
     display: block;
     position: relative;
     width: 2000px;
     height: 16px;
     line-height: 16px;
     font-family: var(--font-display);
-    font-size: 11px;
     font-weight: 600;
     color: var(--accent);
 }
@@ -380,14 +374,14 @@ span[class*=username-][class*=desaturateUserColors-][class*=clickable] {
  }
 
 [class*=markup-][class*=messageContent-]:not([class*=repliedTextPreview-][class*=clickable-] > div) {
-    margin: 5px 0 5px 0;
-    padding: 5px 10px 5px 10px;
+    margin: 1px 0 1px 0;
+    padding: 7px 10px 7px 10px;
     width: fit-content;
-    border-style: solid;
-    border-width: 2px;  
+    border-style: inset;
+    border-width: 3px;  
     border-color: var(--accent);
     background: linear-gradient(to right,  var(--accent-dimmest), var(--background-primary));
-    box-shadow: -6px 6px 0px 0px var(--accent-muted)
+    box-shadow: 0px 0px 30px 2px var(--accent)
 }
 /* Reduced enhanced markdown margins */
 [class^=message] [id^=message-content] :is(h1, h2, h3, li) {
@@ -395,7 +389,9 @@ span[class*=username-][class*=desaturateUserColors-][class*=clickable] {
   }
   [class^=message] [id^=message-content] :is(ol, ul) {
     margin-top: 0px;
+    margin-left: 35px;
   }
+
   [class|=userPopoutInner] [style*="-webkit-line-clamp"] {
     -webkit-line-clamp: 99999 !important;
 }
