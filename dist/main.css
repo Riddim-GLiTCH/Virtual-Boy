@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 /*Variables IG*/
 :root{
+        --version: "Virtual Boy V1.1-main";
         --font: "VT323";
         --brand-experiment-10a: var(--accent-muted);
         --brand-experiment-05a: var(--accent-dimmest);
@@ -241,7 +242,7 @@ button[aria-label="Send a gift"] {
 }
 
 :root {
-    --sign-text:'VIRTUAL BOY Version 1.0-main-03'; 
+    --sign-text: var(--version))
     --sign-color: var(--accent-muted);
     text-shadow: 0 0 3px var(--accent); 
     /*
@@ -352,7 +353,7 @@ main[class^=chatContent] > form > * > [class^=attachedBars] {
     display: none;
 }
 .wordmarkWindows-2dq6rw::after {
-    content: 'VIRTUAL BOY V1.0-main-03';
+    content: var(--version);
     display: block;
     position: relative;
     width: 2000px;
