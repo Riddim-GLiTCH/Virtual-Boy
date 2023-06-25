@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 /*Variables IG*/
 :root{
-        --version: "Virtual Boy V1.1-main";
+        --version: "Virtual Boy V1.1-main-1";
         --font: "VT323";
         --brand-experiment-10a: var(--accent-muted);
         --brand-experiment-05a: var(--accent-dimmest);
@@ -237,12 +237,9 @@
 button[aria-label="Send a gift"] {
     display: none;
 }
-button[aria-label="Send a gift"] {
-    display: none;
-}
 
 :root {
-    --sign-text: var(--version))
+    --sign-text: var(--version)
     --sign-color: var(--accent-muted);
     text-shadow: 0 0 3px var(--accent); 
     /*
