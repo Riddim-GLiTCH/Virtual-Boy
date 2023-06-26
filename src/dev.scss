@@ -1,8 +1,8 @@
 // For testing purposes
-// virtual-boy-test.theme.css
+// virtual-boy-edit.theme.css
 
 @use './core/root';
 @use './theme';
 
-@use './addons/messageboxes';
-@use './addons/textglow';
+@use './addon/messageboxes';
+@use './addon/textglow';
