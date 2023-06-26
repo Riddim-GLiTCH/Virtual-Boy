@@ -1,0 +1,13 @@
+/* jump to present */
+[class^="jumpToPresentBar"] {
+    left: 0;
+    border-radius: 0px;
+    border-top-right-radius: 0px;
+    opacity: 1;
+    background-color: var(--channeltextarea-background);
+    right: unset;
+}
+[class^="jumpToPresentBar"] > [class^="barButtonMain"] {
+    flex: 0 0 auto;
+    display: none;
+}
