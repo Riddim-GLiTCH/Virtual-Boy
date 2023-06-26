@@ -1,0 +1,12 @@
+/* Reduced enhanced markdown margins */
+[class^="message"] [id^="message-content"] :is(h1, h2, h3, li) {
+    margin: 0px;
+}
+[class^="message"] [id^="message-content"] :is(ol, ul) {
+    margin-top: 0px;
+    margin-left: 35px;
+}
+
+[class|="userPopoutInner"] [style*="-webkit-line-clamp"] {
+    -webkit-line-clamp: 99999 !important;
+}

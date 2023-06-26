@@ -1,0 +1,14 @@
+.wordmarkWindows-2dq6rw svg {
+    display: none;
+}
+.wordmarkWindows-2dq6rw::after {
+    content: var(--version);
+    display: block;
+    position: relative;
+    width: 2000px;
+    height: 16px;
+    line-height: 16px;
+    font-family: var(--font-display);
+    font-weight: 600;
+    color: var(--accent);
+}

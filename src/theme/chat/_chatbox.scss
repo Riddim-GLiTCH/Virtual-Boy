@@ -1,0 +1,45 @@
+/* ----- Aligned Chatbox ----- */
+/* align edges of chatbox to sides */
+:is(main, section)[class^="chatContent"] > form {
+    padding: 0px;
+}
+
+/* align chatbox to bottom */
+:is(main, section)[class^="chatContent"] > form > *:first-child {
+    margin-bottom: 0px;
+}
+
+/* center chatbox contents, no border radius */
+:is(main, section)[class^="chatContent"] > form > *:first-child > * {
+    padding-top: 4px;
+    min-height: 49px;
+    border-radius: 0px;
+}
+
+// Autocomplete
+.theme-dark .autocomplete-3NRXG8 {
+    background-color: rgb(8, 8, 8);
+}
+
+/* slowmode/typing indicator */
+:is(main, section)[class^="chatContent"] > form > *:last-child[class^="typing"] {
+    top: -24px;
+    right: 0px;
+    margin-left: auto;
+    width: fit-content;
+    padding-left: 2px;
+    padding-right: 9px;
+    border-top-left-radius: 0px;
+    background-color: var(--channeltextarea-background);
+}
+
+/* Fix replies */
+main[class^="chatContent"] > form > * > [class^="attachedBars"] {
+    min-height: unset !important;
+    padding-bottom: 4px;
+}
+
+// Send a gift button
+button[aria-label="Send a gift"] {
+    display: none;
+}

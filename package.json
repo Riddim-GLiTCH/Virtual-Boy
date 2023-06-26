@@ -1,0 +1,10 @@
+{
+	"dependencies": {
+		"bd-scss": "^2.0.14"
+	},
+	"scripts": {
+		"dev": "bd-scss dev",
+		"bd": "bd-scss build"
+	},
+	"type": "module"
+}
