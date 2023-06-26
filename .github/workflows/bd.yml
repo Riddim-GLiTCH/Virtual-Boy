@@ -3,7 +3,7 @@ name: "Build and deploy CSS for BetterDiscord"
 on:
   push:
     branches:
-      - scss
+      - main
 
 jobs:
   build:
