@@ -48,6 +48,10 @@ button[aria-label="Send a gift"] {
   display: none;
 }
 
+.thin-RnSY0a, .thin-RnSY0a.fade-27X6bG.scrolling-37kgoT, .thin-RnSY0a.fade-27X6bG:hover .emojiPicker-6YCk8a {
+  background-color: black;
+}
+
 .theme-dark .container-2IKOsH,
 .theme-dark .header-3xB4vB,
 .theme-dark .emptyPage-2TGR7j,
@@ -212,7 +216,7 @@ span[class*=username-][class*=desaturateUserColors-][class*=clickable] {
 }
 
 :root {
-  --version: "Virtual Boy V1.2-main-1";
+  --version: "Virtual Boy V1.2-main-2";
   --background-message-hover: none !important;
   --background-mentioned: none !important;
   --background-mentioned-hover: none !important;
