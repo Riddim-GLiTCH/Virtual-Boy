@@ -1,0 +1,22 @@
+/**
+ * @name Virtual Boy
+ * @author Riddim_GLiTCH
+ * @version 1.2
+ * @description A theme based on a failed Nintendo console with the same name.
+ * @source https://github.com/Riddim-GLiTCH/Virtual-Boy
+ * @invite aYxpgkvdvR
+ * @authorId 801089753038061669
+*/
+
+@import url('https://Riddim-GLiTCH.github.io/Virtual-Boy/virtual-boy.css');
+
+/* Comment out this line to disable message boxes */
+@import url("https://riddim-glitch.github.io/Virtual-Boy/MessageBoxes.css");
+:root {
+  /* Don't like the colors? Change these variables! */
+  --accent: rgb(255, 0, 0);
+  --accent-muted: rgb(124, 0, 0);
+  --accent-dimmest: rgb(59, 0, 0);
+  --text-shadow-size: 3px;
+  /* End of user editable variables. Proceed past this point with caution! */
+}
