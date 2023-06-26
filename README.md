@@ -2,14 +2,12 @@
 [preview-img]:  https://github.com/Riddim-GLiTCH/Virtual-Boy/assets/87764384/f7b54549-de65-43fe-806c-22a7967126ec
 [edit-img]:     https://github.com/Riddim-GLiTCH/Virtual-Boy/assets/87764384/5a6e4954-378a-4c7f-be3e-de4ad25b20dc
 
-[previews]: https://github.com/Riddim-GLiTCH/Virtual-Boy/blob/main/previews.md
 [pulls]:    https://github.com/Riddim-GLiTCH/Virtual-Boy/pulls
 [issues]:   https://github.com/Riddim-GLiTCH/Virtual-Boy/issues
 
 ![Virtual Boy - A Discord theme inspired by the Virtual boy console][banner]
 ![Screenshot of Discord with the Virtual Boy theme applied][preview-img]
 ---
-Looking for more previews? Check [here][previews]!
 
 ## About Virtual Boy 
 Virtual Boy is a Discord theme based on a failed games console by Nintendo of the same name. It sports an amoled background and red accents. 
