@@ -23,7 +23,7 @@ By default, the theme has a red accent, faithful to the graphics of the original
 ## Installation
 
 ### BetterDiscord
-> Download the theme [here][direct-dl], or from the [releases][releases] tab, open your BetterDiscord themes folder, and move the theme there.
+> Download the theme [here][download], or from the [releases][releases] tab, open your BetterDiscord themes folder, and move the theme there.
 
 ### Vencord
 > Paste this line into your theme links: `https://raw.githubusercontent.com/Riddim-GLiTCH/Virtual-Boy/deploy/virtual-boy.theme.css`
