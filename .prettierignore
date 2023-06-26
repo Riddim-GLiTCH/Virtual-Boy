@@ -1,11 +1,8 @@
-.github
-
-node_modules
-src
+/.github
+/node_modules
 
 LICENSE
-*.md
-*.code-workspace
+pnpm-lock.yaml
 
-*.min.css
-*.theme.css
+*.md
+*.css
