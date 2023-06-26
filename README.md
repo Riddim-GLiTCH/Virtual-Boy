@@ -19,6 +19,21 @@ By default, the theme has a red accent, faithful to the graphics of the original
 
 ![Screenshot of the user-editable variables][edit-img]
 
+## Installation
+
+### BetterDiscord:
+> Download the theme [here](https://github.com/Riddim-GLiTCH/Virtual-Boy/releases/download/v1.2/virtual-boy.theme.css), or from the [releases](https://github.com/Riddim-GLiTCH/Virtual-Boy/releases) tab, open your better discord themes folder, and move the theme there.
+
+## Vencord:
+> Paste this line into your theme links: `https://raw.githubusercontent.com/Riddim-GLiTCH/Virtual-Boy/deploy/virtual-boy.theme.css`
+>
+>Please note that this method will not allow you to customize the appearance
+
+## Replugged:
+> No replugged version is planned. 
+
+
+
 ## Why did you make this theme?
 This is my first ever properly finished Discord theme. I made it cuz I was working on a previous theme with an ex partner of mine, but that project died off due to a breakup. I really wanted to make my own theme though, so I set out to make this.
 
