@@ -1,7 +1,7 @@
 [banner]:       https://github.com/Riddim-GLiTCH/Virtual-Boy/assets/87764384/ad1ed967-2cee-479c-a4b2-b781fe531494
 [preview-img]:  https://github.com/Riddim-GLiTCH/Virtual-Boy/assets/87764384/8df847f8-da51-4711-9934-ec8ee0bf36bc
 [edit-img]:     https://github.com/Riddim-GLiTCH/Virtual-Boy/assets/87764384/5a6e4954-378a-4c7f-be3e-de4ad25b20dc
- 
+
 [previews]: https://github.com/Riddim-GLiTCH/Virtual-Boy/blob/main/previews.md
 [pulls]:    https://github.com/Riddim-GLiTCH/Virtual-Boy/pulls
 [issues]:   https://github.com/Riddim-GLiTCH/Virtual-Boy/issues
