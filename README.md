@@ -29,9 +29,9 @@ Yes, BUT. if you want to publish it, I kindly ask of you to link back to this re
 Yes please! Help is always appreciated! Just make a [pull request][pulls], or let me know what I should add/fix in [issues][issues]!
 
 ### Credits
+- Saltssaumure - For helping me set up the theme properly, the modified settings pane, and the CSS-rules to make everything squared.
 - Blade04208 - for the watermarking tools used to display version numbers in the settings panel.
 - DaBluLite - For the improved user account details in the settings pane.
-- Saltssaumure - For the modified settings pane, and the CSS-rules to make everything squared.
 - aoithesceneryhoarder from the Vencord server - For the message bubbles
 - f53 from the Vencord Server - For the improved chat input area, and the extended markdown fixes.
 - Vending Machine - for the About Me cut-off fix.
