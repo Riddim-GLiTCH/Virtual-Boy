@@ -1,13 +1,11 @@
-/*Comment this import to disable Message Boxes*/
-@import url("https://minidiscordthemes.github.io/Virtual-Boy/MessageBoxes.css");
-
-/*Comment this line to completely disable text glow*/
-@import url("https://minidiscordthemes.github.io/Virtual-Boy/TextGlow.css");
+/* Comment out this line to disable message boxes */
+@import url("https://riddim-glitch.github.io/Virtual-Boy/MessageBoxes.css");
 
 :root {
-    /*Dont like the colors? Change these variables!*/
+    /* Don't like the colors? Change these variables! */
     --accent: rgb(255, 0, 0);
     --accent-muted: rgb(124, 0, 0);
     --accent-dimmest: rgb(59, 0, 0);
-    /*End of user editable variables. Proceed past this point with caution!*/
+    --text-shadow-size: 3px;
+    /* End of user editable variables. Proceed past this point with caution! */
 }

@@ -1,10 +1,34 @@
-# Virtual Boy - Edit
+[banner]:       https://github.com/Riddim-GLiTCH/Virtual-Boy/assets/87764384/ad1ed967-2cee-479c-a4b2-b781fe531494
+[preview-img]:  https://github.com/Riddim-GLiTCH/Virtual-Boy/assets/87764384/8df847f8-da51-4711-9934-ec8ee0bf36bc
+[edit-img]:     https://github.com/Riddim-GLiTCH/Virtual-Boy/assets/87764384/5a6e4954-378a-4c7f-be3e-de4ad25b20dc
 
-An SCSS-ified edit of [Riddim-GLiTCH's Virtual Boy theme](https://github.com/Riddim-GLiTCH/Virtual-Boy). See the original for usage info.
+[previews]: https://github.com/Riddim-GLiTCH/Virtual-Boy/blob/main/previews.md
+[pulls]:    https://github.com/Riddim-GLiTCH/Virtual-Boy/pulls
+[issues]:   https://github.com/Riddim-GLiTCH/Virtual-Boy/issues
 
-![Title card](https://github.com/Riddim-GLiTCH/Virtual-Boy/assets/87764384/ad1ed967-2cee-479c-a4b2-b781fe531494)
+![Virtual Boy - A Discord theme inspired by the Virtual boy console][banner]
+![Screenshot of Discord with the Virtual Boy theme applied][preview-img]
+---
+Looking for more previews? Check [here][previews]!
 
-### Credits 
+## About Virtual Boy 
+Virtual Boy is a Discord theme based on a failed games console by Nintendo of the same name. It sports an amoled background and red accents. 
+
+## Don't like the colors? No worries!
+By default, the theme has a red accent, faithful to the graphics of the original Virtual Boy system. However, these colors can be swapped for any color the user desires. Just change these two values to match the color to your liking!
+
+![Screenshot of the user-editable variables][edit-img]
+
+## Why did you make this theme?
+This is my first ever properly finished Discord theme. I made it cuz I was working on a previous theme with an ex partner of mine, but that project died off due to a breakup. I really wanted to make my own theme though, so I set out to make this.
+
+## Can I modify this theme for personal use?
+Yes, BUT. if you want to publish it, I kindly ask of you to link back to this repository, and make sure people know it's based off this. Also make sure the credits below are clearly shown!
+
+## Contribution?
+Yes please! Help is always appreciated! Just make a [pull request][pulls], or let me know what I should add/fix in [issues][issues]!
+
+### Credits
 - Blade04208 - for the watermarking tools used to display version numbers in the settings panel.
 - DaBluLite - For the improved user account details in the settings pane.
 - Saltssaumure - For the modified settings pane, and the CSS-rules to make everything squared.
