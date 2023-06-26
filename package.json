@@ -1,0 +1,6 @@
+{
+	"dependencies": {
+		"bd-scss": "^2.0.14"
+	},
+	"type": "module"
+}
