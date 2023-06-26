@@ -1,10 +1,29 @@
 {
-	"dependencies": {
-		"bd-scss": "^2.0.14"
-	},
-	"scripts": {
-		"dev": "bd-scss dev",
-		"bd": "bd-scss build"
-	},
-	"type": "module"
+    "name": "virtual-boy-theme",
+    "author": "Riddim_GLiTCH",
+    "version": "1.2.1",
+    "description": "A theme based on a failed Nintendo console with the same name.",
+    "repository": "github:Riddim-GLiTCH/Virtual-Boy",
+    "type": "module",
+    "private": true,
+    "engines": {
+        "node": ">=18.0.0",
+        "pnpm": ">=8.0.0"
+    },
+    "scripts": {
+        "dev": "bd-scss dev",
+        "bd": "bd-scss build",
+        "rp": "replugged bundle theme",
+        "lint": "prettier ./src --check",
+        "lint:fix": "prettier ./src --write"
+    },
+    "dependencies": {
+        "@parcel/config-default": "^2.8.3",
+        "@parcel/core": "^2.8.3",
+        "@parcel/transformer-sass": "^2.8.3",
+        "@types/node": "^18.15.11",
+        "prettier": "^2.8.7",
+        "replugged": "^4.4.2",
+        "bd-scss": "^2.0.14"
+    }
 }

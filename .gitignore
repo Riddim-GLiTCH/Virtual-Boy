@@ -1,2 +1,4 @@
-/node_modules
+/.parcel-cache
+/bundle
 /dist
+/node_modules

@@ -1,0 +1,18 @@
+{
+    "id": "tech.hacked-your.n14.Virtual-Boy",
+    "name": "Virtual Boy",
+    "description": "A theme template",
+    "author": {
+        "name": "Riddim_GLiTCH",
+        "discordID": "801089753038061669",
+        "github": "Riddim_GLiTCH"
+    },
+    "version": "1.2.1",
+    "updater": {
+        "type": "github",
+        "id": "Riddim_GLiTCH/Virtual-Boy"
+    },
+    "license": "See README.md",
+    "type": "replugged-theme",
+    "main": "src/dev.scss"
+}
