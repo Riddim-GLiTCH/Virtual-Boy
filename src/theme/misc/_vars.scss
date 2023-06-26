@@ -1,5 +1,9 @@
 :root {
     --version: "Virtual Boy V1.1-main-1";
+    --background-message-hover:               none !important;
+    --background-mentioned:                   none !important;
+    --background-mentioned-hover:             none !important;
+    --background-message-highlight:           none !important;
     --brand-experiment-10a: var(--accent-muted);
     --brand-experiment-05a: var(--accent-dimmest);
     --brand-experiment: var(--accent);

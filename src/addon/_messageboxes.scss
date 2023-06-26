@@ -1,10 +1,61 @@
-[class*="markup-"][class*="messageContent-"]:not([class*="repliedTextPreview-"][class*="clickable-"] > div) {
+[class*=markup-][class*=messageContent-]:not([class*=repliedTextPreview-][class*=clickable-] > div) {
     margin: 1px 0 1px 0;
     padding: 7px 10px 7px 10px;
+    width: -moz-fit-content;
     width: fit-content;
     border-style: inset;
     border-width: 3px;
     border-color: var(--accent);
-    background: linear-gradient(to right, var(--accent-dimmest), var(--background-primary));
-    box-shadow: 0px 0px 30px 2px var(--accent);
+    background: linear-gradient(to right, var(--accent-dimmest), var(--accent-dimmest));
+    box-shadow: 0px 0px 0px 0px var(--accent);
+  }
+[class*=replying-]::before, [class*=mentioned-]::before {
+    display: none;
+  } 
+  
+  [class*=contents-] {
+      max-width: max-content;
+      margin-left: 10px;
+  } 
+  
+  [class*=groupStart-][class*=cozyMessage-] > [class*=contents-], [class*=cozyMessage-]:not([class*=groupStart-]) > [class*=contents-] > [class*=markup]:not(:empty, [class*=searchResultsWrap]) {
+      margin: 0;
+      padding: 10px;
+      border-radius: 0;
+      background: var(--accent-dimmest);
+      border: 2px solid var(--accent);
+      /* box-shadow: -6px 6px 0px 0px hsl(var(--primary-700-hsl)/0.25), 0 0 1px 1px hsl(var(--primary-700-hsl)/0.5); OPTIONAL */ 
+  }
+  [class*=groupStart-][class*=cozyMessage-]:hover > [class*=contents-], [class*=cozyMessage-]:not([class*=groupStart-]):hover > [class*=contents-] > [class*=markup]:not(:empty, [class*=searchResultsWrap]) {
+    background: var(--accent-muted);
+  }
+  
+  [class*=groupStart-][class*=cozyMessage-][class*=replying-] > [class*=contents-], [class*=cozyMessage-]:not([class*=groupStart-])[class*=replying-] > [class*=contents-] > [class*=markup]:not(:empty, [class*=searchResultsWrap]) {
+    background: var(--accent-dimmest);
+    border: 2px solid var(--accent);
+  }
+  [class*=groupStart-][class*=cozyMessage-][class*=replying-]:hover > [class*=contents-], [class*=cozyMessage-]:not([class*=groupStart-])[class*=replying-]:hover > [class*=contents-] > [class*=markup]:not(:empty, [class*=searchResultsWrap]) {
+    background: var(--accent-muted);
+  }
+  
+  [class*=contents-] [class*=avatar-][class*=clickable-] { margin-top: calc(-4px - 0.125rem); scale: 1.15; }
+  [class*=contents-] [class*=avatarDecoration-] { margin-top: calc(-8px - 0.125rem); scale: 1.15;}
+  
+  [class*=groupStart-][class*=cozyMessage-][class*=mentioned-] > [class*=contents-], [class*=cozyMessage-]:not([class*=groupStart-])[class*=mentioned-] > [class*=contents-] > [class*=markup]:not(:empty, [class*=searchResultsWrap]) 
+  {
+    background: var(--accent-muted);
+    border: 2px solid var(--accent);
+    border-radius: 0;
+  }
+  
+  [class*=groupStart-][class*=cozyMessage-][class*=mentioned-]:hover > [class*=contents-], [class*=cozyMessage-]:not([class*=groupStart-])[class*=mentioned-]:hover > [class*=contents-] > [class*=markup]:not(:empty, [class*=searchResultsWrap]) 
+  {
+      background: var(--accent-dimmest);
+  }
+  
+  .mouse-mode.full-motion .replying-eZ7p5z:hover {
+    background: transparent;
+  } 
+  .cozy-VmLDNB .timestamp-p1Df1m {
+    color: var(--accent);
 }
