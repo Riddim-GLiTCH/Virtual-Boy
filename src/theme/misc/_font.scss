@@ -1,3 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
+@font-face {
+    font-family: "FixedSysTrue";
+    src: url("https://saltssaumure.github.io/pios-discord-theme/font/FixedSysTrue.ttf");
+}
+
+$font-code: VT323, FixedSysTrue, Consolas, monospace;
+$font-latin: VT323, FixedSysTrue, monospace;
+$font-cyrillic: VT323, FixedSysTrue, monospace;
+$font-japanese: VT323, FixedSysTrue, "Hiragino Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, Osaka,
+    "MS PGothic", monospace;
+$font-chinese-simplified: VT323, FixedSysTrue, "Microsoft YaHei New", 微软雅黑, "Microsoft Yahei", "Microsoft JhengHei", 宋体, SimSun,
+    monospace;
+$font-chinese-traditional: VT323, FixedSysTrue, "Microsoft JhengHei", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft YaHei", 微軟雅黑, 宋体,
+    SimSun, monospace;
+$font-korean: VT323, FixedSysTrue, "Apple SD Gothic Neo", NanumBarunGothic, "맑은 고딕", "Malgun Gothic", Gulim, 굴림, Dotum, 돋움,
+    monospace;
+
+@mixin lang-font($font) {
+    --font-display: #{$font}; // For server and channel title
+    --font-primary: #{$font}; // For almost everything else
+    --font-headline: #{$font}; // For discord ads
+    --font-code: #{$font-code}; // For code blocks
+}
+
+:root {
+    @include lang-font($font-latin);
+}
+:lang(bg),
+:lang(el),
+:lang(ru),
+:lang(uk) {
+    @include lang-font($font-cyrillic);
+}
+:lang(zh-CN) {
+    @include lang-font($font-chinese-simplified);
+}
+:lang(zh-TW) {
+    @include lang-font($font-chinese-traditional);
+}
+:lang(ja) {
+    @include lang-font($font-japanese);
+}
+:lang(ko) {
+    @include lang-font($font-korean);
+}
+
 a,
 abbr,
 acronym,

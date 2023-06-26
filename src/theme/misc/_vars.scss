@@ -1,16 +1,10 @@
-/*Variables IG*/
 :root {
     --version: "Virtual Boy V1.1-main-1";
-    --font: "VT323";
     --brand-experiment-10a: var(--accent-muted);
     --brand-experiment-05a: var(--accent-dimmest);
     --brand-experiment: var(--accent);
     --primary-630-hsl: var(--background-secondary);
     --primary-600: var(--background-primary);
-    --font-headline: var(--font);
-    --font-primary: var(--font);
-    --font-code: var(--font);
-    --font-display: var(--font);
     --activity-card-background: var(--primary-700);
     --android-navigation-bar-background: var(--primary-830);
     --android-navigation-scrim-background: hsl(var(--primary-830-hsl) / 0.5);
@@ -114,7 +108,7 @@
     --forum-post-tag-background: hsl(var(--primary-660-hsl) / 0.9);
     --header-primary: var(--accent);
     --header-secondary: var(--accent-muted);
-    --home-background: var(--primary-645);
+    --home-background: black;
     --home-card-resting-border: hsl(var(--transparent-hsl) / 0);
     --info-box-background: hsl(var(--blue-345-hsl) / 0.1);
     --info-danger-background: hsl(var(--red-400-hsl) / 0.1);
