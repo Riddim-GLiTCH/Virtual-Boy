@@ -48,7 +48,9 @@ button[aria-label="Send a gift"] {
   display: none;
 }
 
-.thin-RnSY0a, .thin-RnSY0a.fade-27X6bG.scrolling-37kgoT, .thin-RnSY0a.fade-27X6bG:hover .emojiPicker-6YCk8a {
+.thin-RnSY0a,
+.thin-RnSY0a.fade-27X6bG.scrolling-37kgoT,
+.thin-RnSY0a.fade-27X6bG:hover .emojiPicker-6YCk8a {
   background-color: black;
 }
 

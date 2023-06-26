@@ -10,7 +10,8 @@
   box-shadow: 0px 0px 0px 0px var(--accent);
 }
 
-[class*=replying-]::before, [class*=mentioned-]::before {
+[class*=replying-]::before,
+[class*=mentioned-]::before {
   display: none;
 }
 
@@ -20,7 +21,8 @@
   margin-left: 10px;
 }
 
-[class*=groupStart-][class*=cozyMessage-] > [class*=contents-], [class*=cozyMessage-]:not([class*=groupStart-]) > [class*=contents-] > [class*=markup]:not(:empty, [class*=searchResultsWrap]) {
+[class*=groupStart-][class*=cozyMessage-] > [class*=contents-],
+[class*=cozyMessage-]:not([class*=groupStart-]) > [class*=contents-] > [class*=markup]:not(:empty, [class*=searchResultsWrap]) {
   margin: 0;
   padding: 10px;
   border-radius: 0;
@@ -29,16 +31,19 @@
   /* box-shadow: -6px 6px 0px 0px hsl(var(--primary-700-hsl)/0.25), 0 0 1px 1px hsl(var(--primary-700-hsl)/0.5); OPTIONAL */
 }
 
-[class*=groupStart-][class*=cozyMessage-]:hover > [class*=contents-], [class*=cozyMessage-]:not([class*=groupStart-]):hover > [class*=contents-] > [class*=markup]:not(:empty, [class*=searchResultsWrap]) {
+[class*=groupStart-][class*=cozyMessage-]:hover > [class*=contents-],
+[class*=cozyMessage-]:not([class*=groupStart-]):hover > [class*=contents-] > [class*=markup]:not(:empty, [class*=searchResultsWrap]) {
   background: var(--accent-muted);
 }
 
-[class*=groupStart-][class*=cozyMessage-][class*=replying-] > [class*=contents-], [class*=cozyMessage-]:not([class*=groupStart-])[class*=replying-] > [class*=contents-] > [class*=markup]:not(:empty, [class*=searchResultsWrap]) {
+[class*=groupStart-][class*=cozyMessage-][class*=replying-] > [class*=contents-],
+[class*=cozyMessage-]:not([class*=groupStart-])[class*=replying-] > [class*=contents-] > [class*=markup]:not(:empty, [class*=searchResultsWrap]) {
   background: var(--accent-dimmest);
   border: 2px solid var(--accent);
 }
 
-[class*=groupStart-][class*=cozyMessage-][class*=replying-]:hover > [class*=contents-], [class*=cozyMessage-]:not([class*=groupStart-])[class*=replying-]:hover > [class*=contents-] > [class*=markup]:not(:empty, [class*=searchResultsWrap]) {
+[class*=groupStart-][class*=cozyMessage-][class*=replying-]:hover > [class*=contents-],
+[class*=cozyMessage-]:not([class*=groupStart-])[class*=replying-]:hover > [class*=contents-] > [class*=markup]:not(:empty, [class*=searchResultsWrap]) {
   background: var(--accent-muted);
 }
 
@@ -52,13 +57,15 @@
   scale: 1.15;
 }
 
-[class*=groupStart-][class*=cozyMessage-][class*=mentioned-] > [class*=contents-], [class*=cozyMessage-]:not([class*=groupStart-])[class*=mentioned-] > [class*=contents-] > [class*=markup]:not(:empty, [class*=searchResultsWrap]) {
+[class*=groupStart-][class*=cozyMessage-][class*=mentioned-] > [class*=contents-],
+[class*=cozyMessage-]:not([class*=groupStart-])[class*=mentioned-] > [class*=contents-] > [class*=markup]:not(:empty, [class*=searchResultsWrap]) {
   background: var(--accent-muted);
   border: 2px solid var(--accent);
   border-radius: 0;
 }
 
-[class*=groupStart-][class*=cozyMessage-][class*=mentioned-]:hover > [class*=contents-], [class*=cozyMessage-]:not([class*=groupStart-])[class*=mentioned-]:hover > [class*=contents-] > [class*=markup]:not(:empty, [class*=searchResultsWrap]) {
+[class*=groupStart-][class*=cozyMessage-][class*=mentioned-]:hover > [class*=contents-],
+[class*=cozyMessage-]:not([class*=groupStart-])[class*=mentioned-]:hover > [class*=contents-] > [class*=markup]:not(:empty, [class*=searchResultsWrap]) {
   background: var(--accent-dimmest);
 }
 
