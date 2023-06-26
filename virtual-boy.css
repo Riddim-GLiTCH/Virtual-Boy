@@ -473,6 +473,14 @@ span[class*=username-][class*=desaturateUserColors-][class*=clickable] {
   --rs-phone-visible: none; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
 }
 
+.standardSidebarView-E9Pc3j:has([class*=repo]) {
+  background-color: transparent;
+}
+
+.contentRegion-3HkfJJ:has([class*=repo]) {
+  max-width: 40.5%;
+}
+
 /* add @ to profile views */
 .nameTag-35jqbZ::before {
   content: "@";
