@@ -1,13 +1,13 @@
 {
     "id": "tech.hacked-your.n14.Virtual-Boy",
     "name": "Virtual Boy",
-    "description": "A theme template",
+    "description": "A theme based on a failed Nintendo console with the same name.",
     "author": {
         "name": "Riddim_GLiTCH",
         "discordID": "801089753038061669",
         "github": "Riddim_GLiTCH"
     },
-    "version": "1.2.1",
+    "version": "1.2.3",
     "updater": {
         "type": "github",
         "id": "Riddim_GLiTCH/Virtual-Boy"
