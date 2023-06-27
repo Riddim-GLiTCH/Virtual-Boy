@@ -51,3 +51,4 @@ Yes please! Help is always appreciated! Just make a [pull request][pulls], or le
 - Vending Machine - for the About Me cut-off fix.
 - bernesealexxx from the Replugged server - for the CSS rules that re-add the "@" symbol back to usernames.
 - zeylogger - for the unread pill modification in the channels.
+- aoithesceneryhoarder - for the improved channel category dividers.

@@ -14,3 +14,66 @@
     line-height: 18px;
     margin-right: 1px;
 }
+
+/* force full about me everywhere */
+div[class*="lineClamp2Plus"] {
+    display: block;
+}
+/* Theme developer badge :) */
+[class^=userPopoutOuter-] [class^=profileBadges-][class*=containerWithContent-]::after {
+  margin: 0 !important;
+}
+.divider-2dDziJ:hover {
+    position: absolute; bottom: 955px; left: 573px;
+}
+.layer-2BGhQ8:has(img[src*="801089753038061669"]) .profileBadges-2pItdR{
+    padding-right: 30px;
+}
+
+.layer-2BGhQ8:has(img[src*="801089753038061669"])  .userPopoutOverlayBackground-3A0Pcz{
+    position: relative;
+    overflow: visible;
+}
+
+.layer-2BGhQ8:has(img[src*="801089753038061669"])  .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ {
+    width: 22px;
+    height: 22px;
+    background-color: transparent !important;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    inset: -42px 5px auto auto;
+    pointer-events: all;
+    overflow: visible;
+    box-sizing: border-box;
+}
+.layer-2BGhQ8:has(img[src*="801089753038061669"])  .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ:before, .layer-2BGhQ8:has(img[src*="801089753038061669"])  .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ:after {
+    pointer-events: none;
+}
+.layer-2BGhQ8:has(img[src*="801089753038061669"])  .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ:before {
+    content: "";
+    display: flex;
+    height: 22px;
+    width: 22px;
+    background: url('https://media.discordapp.net/attachments/1110918600035938388/1123174709345910814/Virtualboy.png?width=240&height=240');
+    background-position: center;
+    background-size: contain;
+    border-radius: 0px;
+}
+.layer-2BGhQ8:has(img[src*="801089753038061669"])  .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ:after {
+    content: "Virtual Boy Theme Dev";
+    width: max-content;
+    height: fit-content;
+    color: #ff0000;
+    font-size: 16px;
+    background-color: black;
+    border-radius: 0px;
+    padding: 5px 10px;
+    position: absolute;
+    inset: -35px 0 auto auto;
+    opacity: 0;
+    transition: opacity 0ms linear;
+}
+.layer-2BGhQ8:has(img[src*="801089753038061669"])  .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ:hover:after {
+    opacity: 1;
+}

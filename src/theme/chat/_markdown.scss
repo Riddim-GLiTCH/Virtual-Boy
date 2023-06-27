@@ -6,7 +6,14 @@
     margin-top: 0px;
     margin-left: 35px;
 }
-
-[class|="userPopoutInner"] [style*="-webkit-line-clamp"] {
-    -webkit-line-clamp: 99999 !important;
+/* Fix headings */
+/* fix markdown styles */
+[class*=markup-] h1 {
+    font-size: 200% !important;
+}
+[class*=markup-] h2 {
+    font-size: 150% !important;
+}
+[class*=markup-] h3 {
+    font-size: 130% !important;
 }
