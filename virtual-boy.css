@@ -580,7 +580,8 @@ div[class*=lineClamp2Plus] {
   box-sizing: border-box;
 }
 
-.layer-2BGhQ8:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ:before, .layer-2BGhQ8:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ:after {
+.layer-2BGhQ8:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ:before,
+.layer-2BGhQ8:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ:after {
   pointer-events: none;
 }
 
