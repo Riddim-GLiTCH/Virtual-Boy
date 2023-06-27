@@ -10,7 +10,7 @@
     "version": "1.2.3",
     "updater": {
         "type": "github",
-        "id": "Riddim_GLiTCH/Virtual-Boy"
+        "id": "Riddim-GLiTCH/Virtual-Boy"
     },
     "license": "See README.md",
     "type": "replugged-theme",
