@@ -51,3 +51,4 @@ Yes please! Help is always appreciated! Just make a [pull request][pulls], or le
 - [Vendicated](https://github.com/Vendicated) - for the About Me cut-off fix.
 - [bernesealexxx](https://bernesealexxx.carrd.co/) from the Replugged server - for the CSS rules that re-add the "@" symbol back to usernames.
 - zeylogger - for the unread pill modification in the channels.
+- Barnyard - For the theme's Logo.
