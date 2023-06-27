@@ -90,8 +90,18 @@ button[aria-label="Send a gift"] {
   margin-left: 35px;
 }
 
-[class|=userPopoutInner] [style*=-webkit-line-clamp] {
-  -webkit-line-clamp: 99999 !important;
+/* Fix headings */
+/* fix markdown styles */
+[class*=markup-] h1 {
+  font-size: 200% !important;
+}
+
+[class*=markup-] h2 {
+  font-size: 150% !important;
+}
+
+[class*=markup-] h3 {
+  font-size: 130% !important;
 }
 
 .field-21XZwa .fieldButton-14lHvK {
@@ -218,7 +228,7 @@ span[class*=username-][class*=desaturateUserColors-][class*=clickable] {
 }
 
 :root {
-  --version: "Virtual Boy V1.2-main-2";
+  --version: "Virtual Boy V1.2-main-3";
   --background-message-hover: none !important;
   --background-mentioned: none !important;
   --background-mentioned-hover: none !important;
@@ -483,6 +493,37 @@ span[class*=username-][class*=desaturateUserColors-][class*=clickable] {
   max-width: 40.5%;
 }
 
+.membersGroup-2eiWxl {
+  color: var(--accent) !important;
+  background-color: var(--accent-dimmest);
+  border-radius: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 8px;
+  padding: 2px;
+  font-size: 12px;
+  height: 2.5vh;
+  /*font-weight: bold; Use if your font is too light*/
+  text-align: center;
+}
+
+.containerDefault-3TQ5YN .overflow-1wOqNV {
+  color: var(--accent) !important;
+  background-color: var(--accent-dimmest);
+  border-radius: 0px;
+  padding: 3px;
+  margin-bottom: 10px;
+  margin-left: 6px;
+  font-size: 14px;
+  /*font-weight: bold; Use if your font is too light*/
+  text-align: center;
+}
+
+.arrow-2HswgU {
+  top: 0px;
+  zoom: 125%;
+}
+
 /* add @ to profile views */
 .nameTag-35jqbZ::before {
   content: "@";
@@ -499,6 +540,80 @@ span[class*=username-][class*=desaturateUserColors-][class*=clickable] {
   color: var(--header-primary);
   line-height: 18px;
   margin-right: 1px;
+}
+
+/* force full about me everywhere */
+div[class*=lineClamp2Plus] {
+  display: block;
+}
+
+/* Theme developer badge :) */
+[class^=userPopoutOuter-] [class^=profileBadges-][class*=containerWithContent-]::after {
+  margin: 0 !important;
+}
+
+.divider-2dDziJ:hover {
+  position: absolute;
+  bottom: 955px;
+  left: 573px;
+}
+
+.layer-2BGhQ8:has(img[src*="801089753038061669"]) .profileBadges-2pItdR {
+  padding-right: 30px;
+}
+
+.layer-2BGhQ8:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground-3A0Pcz {
+  position: relative;
+  overflow: visible;
+}
+
+.layer-2BGhQ8:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ {
+  width: 22px;
+  height: 22px;
+  background-color: transparent !important;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  inset: -42px 5px auto auto;
+  pointer-events: all;
+  overflow: visible;
+  box-sizing: border-box;
+}
+
+.layer-2BGhQ8:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ:before, .layer-2BGhQ8:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ:after {
+  pointer-events: none;
+}
+
+.layer-2BGhQ8:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ:before {
+  content: "";
+  display: flex;
+  height: 22px;
+  width: 22px;
+  background: url("https://media.discordapp.net/attachments/1110918600035938388/1123174709345910814/Virtualboy.png?width=240&height=240");
+  background-position: center;
+  background-size: contain;
+  border-radius: 0px;
+}
+
+.layer-2BGhQ8:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ:after {
+  content: "Virtual Boy Theme Dev";
+  width: -moz-max-content;
+  width: max-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  color: #ff0000;
+  font-size: 16px;
+  background-color: black;
+  border-radius: 0px;
+  padding: 5px 10px;
+  position: absolute;
+  inset: -35px 0 auto auto;
+  opacity: 0;
+  transition: opacity 0ms linear;
+}
+
+.layer-2BGhQ8:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ:hover:after {
+  opacity: 1;
 }
 
 .wordmarkWindows-2dq6rw svg {
