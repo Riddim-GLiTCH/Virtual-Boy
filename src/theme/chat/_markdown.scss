@@ -8,12 +8,12 @@
 }
 /* Fix headings */
 /* fix markdown styles */
-[class*=markup-] h1 {
+[class*="markup-"] h1 {
     font-size: 200% !important;
 }
-[class*=markup-] h2 {
+[class*="markup-"] h2 {
     font-size: 150% !important;
 }
-[class*=markup-] h3 {
+[class*="markup-"] h3 {
     font-size: 130% !important;
 }

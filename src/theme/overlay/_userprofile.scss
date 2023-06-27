@@ -20,22 +20,24 @@ div[class*="lineClamp2Plus"] {
     display: block;
 }
 /* Theme developer badge :) */
-[class^=userPopoutOuter-] [class^=profileBadges-][class*=containerWithContent-]::after {
-  margin: 0 !important;
+[class^="userPopoutOuter-"] [class^="profileBadges-"][class*="containerWithContent-"]::after {
+    margin: 0 !important;
 }
 .divider-2dDziJ:hover {
-    position: absolute; bottom: 955px; left: 573px;
+    position: absolute;
+    bottom: 955px;
+    left: 573px;
 }
-.layer-2BGhQ8:has(img[src*="801089753038061669"]) .profileBadges-2pItdR{
+.layer-2BGhQ8:has(img[src*="801089753038061669"]) .profileBadges-2pItdR {
     padding-right: 30px;
 }
 
-.layer-2BGhQ8:has(img[src*="801089753038061669"])  .userPopoutOverlayBackground-3A0Pcz{
+.layer-2BGhQ8:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground-3A0Pcz {
     position: relative;
     overflow: visible;
 }
 
-.layer-2BGhQ8:has(img[src*="801089753038061669"])  .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ {
+.layer-2BGhQ8:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ {
     width: 22px;
     height: 22px;
     background-color: transparent !important;
@@ -47,20 +49,21 @@ div[class*="lineClamp2Plus"] {
     overflow: visible;
     box-sizing: border-box;
 }
-.layer-2BGhQ8:has(img[src*="801089753038061669"])  .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ:before, .layer-2BGhQ8:has(img[src*="801089753038061669"])  .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ:after {
+.layer-2BGhQ8:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ:before,
+.layer-2BGhQ8:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ:after {
     pointer-events: none;
 }
-.layer-2BGhQ8:has(img[src*="801089753038061669"])  .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ:before {
+.layer-2BGhQ8:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ:before {
     content: "";
     display: flex;
     height: 22px;
     width: 22px;
-    background: url('https://raw.githubusercontent.com/Riddim-GLiTCH/Virtual-Boy/main/src/assets/vbbadge.png');
+    background: url("https://raw.githubusercontent.com/Riddim-GLiTCH/Virtual-Boy/main/src/assets/vbbadge.png");
     background-position: center;
     background-size: contain;
     border-radius: 0px;
 }
-.layer-2BGhQ8:has(img[src*="801089753038061669"])  .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ:after {
+.layer-2BGhQ8:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ:after {
     content: "Virtual Boy Theme Dev";
     width: max-content;
     height: fit-content;
@@ -74,6 +77,6 @@ div[class*="lineClamp2Plus"] {
     opacity: 0;
     transition: opacity 0ms linear;
 }
-.layer-2BGhQ8:has(img[src*="801089753038061669"])  .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ:hover:after {
+.layer-2BGhQ8:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ:hover:after {
     opacity: 1;
 }
