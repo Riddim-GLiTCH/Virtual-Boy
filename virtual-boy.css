@@ -44,14 +44,9 @@ main[class^=chatContent] > form > * > [class^=attachedBars] {
   padding-bottom: 4px;
 }
 
-button[aria-label="Send a gift"] {
+/* Hide gift button */
+.buttons-uaqb-5 > .button-ejjZWC {
   display: none;
-}
-
-.thin-RnSY0a,
-.thin-RnSY0a.fade-27X6bG.scrolling-37kgoT,
-.thin-RnSY0a.fade-27X6bG:hover .emojiPicker-6YCk8a {
-  background-color: black;
 }
 
 .theme-dark .container-2IKOsH,
