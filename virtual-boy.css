@@ -552,9 +552,7 @@ span[class*=username-][class*=desaturateUserColors-][class*=clickable] {
     border-width: 0 2px 2px 0;
   }
   main form {
-    z-index: 2;
-    width: auto;
-    margin-right: 8%;
+    margin-right: 62px;
   }
 }
 /* member list thingy */
@@ -583,11 +581,6 @@ span[class*=username-][class*=desaturateUserColors-][class*=clickable] {
     -webkit-box-sizing: border-box;
     border: 1px solid var(--accent);
     border-width: 0 0 2px 2px;
-  }
-  main form {
-    z-index: 2;
-    width: auto;
-    margin-left: 8%;
   }
 }
 .container-YkUktl {
