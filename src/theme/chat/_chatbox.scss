@@ -38,14 +38,8 @@ main[class^="chatContent"] > form > * > [class^="attachedBars"] {
     min-height: unset !important;
     padding-bottom: 4px;
 }
+/* Hide gift button */
+.buttons-uaqb-5 > .button-ejjZWC {
+    display: none
+  } 
 
-// Send a gift button
-button[aria-label="Send a gift"] {
-    display: none;
-}
-
-.thin-RnSY0a,
-.thin-RnSY0a.fade-27X6bG.scrolling-37kgoT,
-.thin-RnSY0a.fade-27X6bG:hover .emojiPicker-6YCk8a {
-    background-color: black;
-}
