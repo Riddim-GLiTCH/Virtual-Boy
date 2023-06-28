@@ -52,3 +52,4 @@ Yes please! Help is always appreciated! Just make a [pull request][pulls], or le
 - [bernesealexxx](https://bernesealexxx.carrd.co/) from the Replugged server - for the CSS rules that re-add the "@" symbol back to usernames.
 - zeylogger - for the unread pill modification in the channels.
 - Barnyard - For the theme's Logo.
+- [inxomnyaa](https://github.com/inxomnyaa) - for the [Native Title Bar Size](https://github.com/inxomnyaa/DiscordNativeTitlebarSize)

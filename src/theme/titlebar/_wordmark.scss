@@ -6,9 +6,10 @@
     display: block;
     position: relative;
     width: 2000px;
-    height: 16px;
-    line-height: 16px;
+    height: auto;
+    line-height: auto;
     font-family: var(--font-display);
     font-weight: 600;
+    font-size: 25px;
     color: var(--accent);
 }
