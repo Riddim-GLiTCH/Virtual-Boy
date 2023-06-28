@@ -1,0 +1,28 @@
+.container-YkUktl {
+    height: auto !important;
+    padding: 6px 0px;
+    flex-direction: column;
+    align-items: stretch;
+    row-gap: 0px;
+}
+
+.container-YkUktl > div {
+    width: 100%;
+}
+
+.container-YkUktl > div:nth-child(2) {
+    justify-content: space-between;
+    max-height: 0;
+    overflow: hidden;
+    transition-property: max-height;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+.container-YkUktl:hover > div:nth-child(2) {
+    max-height: 32px;
+}
+
+.container-YkUktl > div:nth-child(2) > button {
+    width: 100%;
+}
