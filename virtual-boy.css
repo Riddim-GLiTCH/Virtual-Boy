@@ -166,18 +166,11 @@ code,
 dd,
 del,
 dfn,
-div,
 dl,
 dt,
 em,
 fieldset,
 form,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 html,
 iframe,
 img,
@@ -488,35 +481,29 @@ span[class*=username-][class*=desaturateUserColors-][class*=clickable] {
   max-width: 40.5%;
 }
 
-.membersGroup-2eiWxl {
-  color: var(--accent) !important;
-  background-color: var(--accent-dimmest);
-  border-radius: 0px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 8px;
-  padding: 2px;
-  font-size: 12px;
-  height: 2.5vh;
-  /*font-weight: bold; Use if your font is too light*/
-  text-align: center;
-}
-
 .containerDefault-3TQ5YN .overflow-1wOqNV {
   color: var(--accent) !important;
   background-color: var(--accent-dimmest);
-  border-radius: 0px;
   padding: 3px;
   margin-bottom: 10px;
-  margin-left: 6px;
   font-size: 14px;
-  /*font-weight: bold; Use if your font is too light*/
+  font-weight: bold;
   text-align: center;
 }
 
 .arrow-2HswgU {
   top: 0px;
   zoom: 125%;
+}
+
+.containerDefault-3TQ5YN {
+  justify-content: center;
+}
+
+.children-3MeUvj {
+  margin-left: -10px;
+  margin-right: -1px;
+  padding-bottom: 10px;
 }
 
 @media only screen and (max-width: 1080px) {
@@ -528,7 +515,7 @@ span[class*=username-][class*=desaturateUserColors-][class*=clickable] {
     box-sizing: content-box;
     -webkit-box-sizing: content-box;
     border: 1px solid var(--accent);
-    border-width: 0 2px 2px 0;
+    border-width: 2px 2px 2px 2px;
     max-height: 100%;
   }
   [class*=sidebar-] > [class*=sidebar-] {
@@ -544,13 +531,26 @@ span[class*=username-][class*=desaturateUserColors-][class*=clickable] {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     border: 1px solid var(--accent);
-    border-width: 0 2px 2px 0;
+    border-width: 2px 2px 2px 2px;
   }
   main form {
     margin-right: 62px;
   }
 }
-/* member list thingy */
+.membersGroup-2eiWxl {
+  color: var(--accent) !important;
+  background-color: var(--accent-dimmest);
+  border-radius: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 8px;
+  padding: 2px;
+  font-size: 12px;
+  height: 2.5vh;
+  font-weight: bold;
+  text-align: center;
+}
+
 @media only screen and (max-width: 1080px) {
   [class*=membersWrap] {
     position: absolute;
