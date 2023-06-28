@@ -53,3 +53,4 @@ Yes please! Help is always appreciated! Just make a [pull request][pulls], or le
 - zeylogger - for the unread pill modification in the channels.
 - Barnyard - For the theme's Logo.
 - [inxomnyaa](https://github.com/inxomnyaa) - for the [Native Title Bar Size](https://github.com/inxomnyaa/DiscordNativeTitlebarSize)
+- Gibbu - for [Radial Status](https://github.com/DiscordStyles/RadialStatus)
