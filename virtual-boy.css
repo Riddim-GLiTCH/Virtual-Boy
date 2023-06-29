@@ -616,12 +616,32 @@ span[class*=username-][class*=desaturateUserColors-][class*=clickable] {
   transition-timing-function: ease-in-out;
 }
 
+.dot-SviNJC {
+  display: none;
+}
+
 .container-1zzFcN:hover > div:nth-child(2) {
   max-height: 32px;
 }
 
 .container-1zzFcN > div:nth-child(2) > button {
   width: 100%;
+  scale: 1.5;
+}
+
+/*User Panel*/
+.withTagAsButton-OsgQ9L,
+.withTagless-10ooWt {
+  min-width: 212px !important;
+}
+
+.container-YkUktl button {
+  margin: 1.1px;
+  background: var(--bg-overlay-4, var(--background-primary));
+}
+
+.contents-3NembX {
+  padding-right: 7px;
 }
 
 /* add @ to profile views */
