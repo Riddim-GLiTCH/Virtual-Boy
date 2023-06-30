@@ -510,7 +510,7 @@ span[class*=username-][class*=desaturateUserColors-][class*=clickable] {
   [class*=sidebar-] {
     position: absolute;
     left: -180px;
-    transition: all 0.1s cubic-bezier(0.22, 1, 0.36, 1);
+    transition: all 0.5s cubic-bezier(0.22, 1, 0.36, 1);
     z-index: 2;
     box-sizing: content-box;
     -webkit-box-sizing: content-box;
@@ -527,7 +527,6 @@ span[class*=username-][class*=desaturateUserColors-][class*=clickable] {
   [class*=sidebar-]:hover {
     opacity: 100%;
     left: 0;
-    z-index: 3;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     border: 1px solid var(--accent);
@@ -555,7 +554,7 @@ span[class*=username-][class*=desaturateUserColors-][class*=clickable] {
   [class*=membersWrap] {
     position: absolute;
     right: -180px;
-    transition: all 0.1s cubic-bezier(0.22, 1, 0.36, 1);
+    transition: all 0.5s cubic-bezier(0.22, 1, 0.36, 1);
     z-index: 1;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -575,7 +574,7 @@ span[class*=username-][class*=desaturateUserColors-][class*=clickable] {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     border: 1px solid var(--accent);
-    border-width: 0 0 2px 2px;
+    border-width: 2px 2px 2px 2px;
   }
 }
 .container-YkUktl {
@@ -745,7 +744,7 @@ div[class*=lineClamp2Plus] {
   content: var(--version);
   display: block;
   position: relative;
-  width: 2000px;
+  width: auto;
   height: auto;
   line-height: auto;
   font-family: var(--font-display);
