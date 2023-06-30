@@ -15,7 +15,7 @@
     [class*="membersWrap"] {
         position: absolute;
         right: -180px;
-        transition: all 0.1s cubic-bezier(0.22, 1, 0.36, 1);
+        transition: all 0.5s cubic-bezier(0.22, 1, 0.36, 1);
         z-index: 1;
         box-sizing: border-box;
         -webkit-box-sizing: border-box;
@@ -38,6 +38,6 @@
         box-sizing: border-box;
         -webkit-box-sizing: border-box;
         border: 1px solid var(--accent);
-        border-width: 0 0 2px 2px;
+        border-width: 2px 2px 2px 2px;
     }
 }
