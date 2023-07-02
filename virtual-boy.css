@@ -49,6 +49,10 @@ main[class^=chatContent] > form > * > [class^=attachedBars] {
   display: none;
 }
 
+.contentWrapper-3vHNP2 {
+  background-color: black;
+}
+
 .theme-dark .container-2IKOsH,
 .theme-dark .header-3xB4vB,
 .theme-dark .emptyPage-2TGR7j,
@@ -734,6 +738,10 @@ div[class*=lineClamp2Plus] {
 
 .layer-2BGhQ8:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ:hover:after {
   opacity: 1;
+}
+
+.layer-2BGhQ8 {
+  background-color: black;
 }
 
 .wordmarkWindows-2dq6rw svg {
