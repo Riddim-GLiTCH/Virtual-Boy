@@ -51,6 +51,18 @@ main[class^=chatContent] > form > * > [class^=attachedBars] {
 
 .contentWrapper-3vHNP2 {
   background-color: black;
+  border-radius: 8px;
+  box-shadow: var(--elevation-stroke), var(--elevation-high);
+  box-sizing: border-box;
+  display: grid;
+  flex: 1 1 auto;
+  grid-template-rows: 24px auto;
+  grid-row-gap: 8px;
+  height: 100%;
+  overflow: hidden;
+  padding-top: 16px;
+  position: relative;
+  z-index: 1;
 }
 
 .theme-dark .container-2IKOsH,
@@ -740,7 +752,7 @@ div[class*=lineClamp2Plus] {
   opacity: 1;
 }
 
-.layer-2BGhQ8 {
+.none-1rXy4P {
   background-color: black;
 }
 
