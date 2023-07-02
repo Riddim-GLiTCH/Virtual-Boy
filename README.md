@@ -37,7 +37,8 @@ Virtual Boy is a Discord theme based on a failed games console by Nintendo of th
 > Please note that this method will not allow you to customize the appearance. <br>
 
 ### Replugged
-> Install the theme [here][replugged].
+> Install the theme [here][replugged]. <br>
+> if this link breaks, simply download the replugged bundle from the [releasese][releases] tab and extract it into your themes folder.
 
 ## Why did you make this theme?
 This is my first ever properly finished Discord theme. I made it cuz I was working on a previous theme with an ex partner of mine, but that project died off due to a breakup. I really wanted to make my own theme though, so I set out to make this.
