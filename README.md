@@ -19,7 +19,7 @@
 Virtual Boy is a Discord theme based on a failed games console by Nintendo of the same name. It sports an amoled background and red accents. <br>
 
 
-## Virtual Boy is colorable. You can easily swap the colors with these values:
+## Virtual Boy is colorable. You can easily swap the colors with these modiefiers:
 ![Screenshot of the user-editable variables][edit-img]
 ![colors-preview][colors-preview]
 
