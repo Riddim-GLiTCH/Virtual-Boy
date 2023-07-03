@@ -7,7 +7,7 @@
         "discordID": "801089753038061669",
         "github": "Riddim_GLiTCH"
     },
-    "version": "1.3",
+    "version": "1.3.1",
     "updater": {
         "type": "github",
         "id": "Riddim-GLiTCH/Virtual-Boy"
