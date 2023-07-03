@@ -32,7 +32,12 @@ jobs:
       - name: Build TypeScript and bundle into asar
         run: pnpm run rp
 
-      - uses: ncipollo/release-action@v1
+      - name: Build BD .theme.css
+        run: pnpm run bd
+
+      - name: Publish release
+        uses: ncipollo/release-action@v1
         with:
-          artifacts: "bundle/*"
+          artifacts: "bundle/*, dist/*.theme.css"
           makeLatest: true
+          generateReleaseNotes: true
