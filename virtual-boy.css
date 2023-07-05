@@ -220,6 +220,15 @@ var {
   font-size: 102% !important;
 }
 
+.messageContent-2t3eCI {
+  color: var(--accent);
+}
+
+.container-ZMc96U,
+.container-ZMc96U * {
+  color: var(--accent);
+}
+
 /* unread pill */
 .unreadRelevant-2f-VSK {
   padding-top: 22px;
@@ -445,7 +454,7 @@ span[class*=username-][class*=desaturateUserColors-][class*=clickable] {
   --status-warning-text: var(--black-500);
   --text-brand: var(--brand-360);
   --text-danger: var(--red-345);
-  --text-link: var(--accent);
+  --text-link: var(--brand-500);
   --text-link-low-saturation: var(--accent-muted);
   --text-muted: var(--accent-muted);
   --text-normal: var(--accent);
@@ -453,10 +462,15 @@ span[class*=username-][class*=desaturateUserColors-][class*=clickable] {
   --text-warning: var(--yellow-300);
   --textbox-markdown-syntax: var(--primary-360);
   --user-profile-header-overflow-background: hsl(var(--primary-700-hsl) / 0.5);
-  --white: var(--white-500);
   --sign-text: var(--version);
   --sign-color: var(--accent-muted);
   text-shadow: 0 0 3px var(--accent);
+  --brand-500-hsl: var(--VBaccent);
+  --brand-700-hsl: var(--VBaccent-muted);
+  --brand-800-hsl: var(--VBaccent-dimmest);
+  --accent: hsl(var(--brand-500-hsl));
+  --accent-muted: hsl(var(--brand-700-hsl));
+  --accent-dimmest: hsl(var(--brand-800-hsl));
   /*
     * Spacing
     */
