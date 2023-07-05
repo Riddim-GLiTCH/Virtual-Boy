@@ -13,3 +13,6 @@
     font-size: 25px;
     color: var(--accent);
 }
+html:has(#activeColorway:not(:empty)) .wordmarkWindows-2dq6rw::after {
+    content: var(--version) " + Colorways";
+}
