@@ -8,6 +8,7 @@
 
 [pulls]:    https://github.com/Riddim-GLiTCH/Virtual-Boy/pulls
 [issues]:   https://github.com/Riddim-GLiTCH/Virtual-Boy/issues
+[colorways]:https://github.com/DaBluLite/DiscordColorways
 [releases]: https://github.com/Riddim-GLiTCH/Virtual-Boy/releases/latest
 [download]: https://github.com/Riddim-GLiTCH/Virtual-Boy/releases/latest/download/virtual-boy.theme.css
 [replugged]:    https://replugged.dev/install?identifier=Riddim-GLiTCH/Virtual-Boy&source=github
@@ -15,11 +16,14 @@
 ![Virtual Boy - A Discord theme inspired by the Virtual boy console][banner]
 ![preview-img][preview-img]
 
-### About Virtual Boy
+# About Virtual Boy
 Virtual Boy is a Discord theme based on a failed games console by Nintendo of the same name. It sports an amoled background and red accents. <br>
 
 
-## Virtual Boy is colorable. You can easily swap the colors with these modiefiers:
+## Virtual Boy is customizable. You can easily swap the colors with these modiefiers:
+#### Virtual Boy supports [Colorways][colorways] now, Customize your theme with ease!
+##### Note: Custom Colorways work best if the values for `Primary`, `Secondary`, and `Tertiary` are put to 0
+
 ![Screenshot of the user-editable variables][edit-img]
 ![colors-preview][colors-preview]
 
@@ -30,7 +34,8 @@ Virtual Boy is a Discord theme based on a failed games console by Nintendo of th
 ### Installation
 
 ### BetterDiscord
-> Download the theme [here][download], or from the [releases][releases] tab, open your BetterDiscord themes folder, and move the theme there.
+> 1. Download the theme [here][download], or from the [releases][releases] tab, open your BetterDiscord themes folder, and move the theme there.<br>
+> 2. Download [Colorways][colorways] and place it in your plugins folder. You can then use Colorways to style your theme with a user friendly interface.
 
 ### Vencord
 > Paste this line into your theme links: `https://raw.githubusercontent.com/Riddim-GLiTCH/Virtual-Boy/deploy/virtual-boy.theme.css`<br>
@@ -54,7 +59,7 @@ Yes please! Help is always appreciated! Just make a [pull request][pulls], or le
 ### Credits
 - [Saltssaumure](https://github.com/Saltssaumure) - For helping me set up the theme properly, the modified settings pane, and the CSS-rules to make everything squared.
 - [Blade04208](https://github.com/Blade04208) - for the watermarking tools used to display version numbers in the settings panel.
-- [DaBluLite](https://github.com/DaBluLite) - For the improved user account details in the settings pane.
+- [DaBluLite](https://github.com/DaBluLite) - For the improved user account details in the settings pane, and for helping set up [Colorways][colorways] compatibility.
 - aoithesceneryhoarder from the Vencord server - For the message bubbles and for the improved channel category dividers.
 - [f53](https://f53.dev/) from the Vencord Server - For the improved chat input area, and the extended markdown fixes.
 - [Vendicated](https://github.com/Vendicated) - for the About Me cut-off fix.
