@@ -1,9 +1,10 @@
-[banner]:          https://raw.githubusercontent.com/Riddim-GLiTCH/Virtual-Boy/main/src/assets/vbsplash.png
-[edit-img]:        https://github.com/Riddim-GLiTCH/Virtual-Boy/assets/87764384/5a6e4954-378a-4c7f-be3e-de4ad25b20dc
-[preview-img]:     https://github.com/Riddim-GLiTCH/Virtual-Boy/assets/87764384/8f8ac869-b777-473d-8268-6424ff423a89
-[colors-preview]:  https://github.com/Riddim-GLiTCH/Virtual-Boy/assets/87764384/02c2fc1c-d933-4b50-93f5-7c7e4147db0b
-[hover-preview]:   https://github.com/Riddim-GLiTCH/Virtual-Boy/assets/87764384/50d7e2bc-9e96-4550-ab52-1a7d50dee5b1
-[compact-preview]: https://github.com/Riddim-GLiTCH/Virtual-Boy/assets/87764384/56644b57-08d4-48d3-a4d4-5d2a47635488
+[banner]:           https://raw.githubusercontent.com/Riddim-GLiTCH/Virtual-Boy/main/src/assets/vbsplash.png
+[edit-img]:         https://github.com/Riddim-GLiTCH/Virtual-Boy/assets/87764384/ffff62fe-0427-4e62-be2a-08235e47deba
+[colorways-preview]:https://github.com/Riddim-GLiTCH/Virtual-Boy/assets/87764384/15f94162-a5fe-4182-aed7-f63ca822c8d5
+[preview-img]:      https://github.com/Riddim-GLiTCH/Virtual-Boy/assets/87764384/8f8ac869-b777-473d-8268-6424ff423a89
+[colors-preview]:   https://github.com/Riddim-GLiTCH/Virtual-Boy/assets/87764384/02c2fc1c-d933-4b50-93f5-7c7e4147db0b
+[hover-preview]:    https://github.com/Riddim-GLiTCH/Virtual-Boy/assets/87764384/50d7e2bc-9e96-4550-ab52-1a7d50dee5b1
+[compact-preview]:  https://github.com/Riddim-GLiTCH/Virtual-Boy/assets/87764384/56644b57-08d4-48d3-a4d4-5d2a47635488
 
 
 [pulls]:    https://github.com/Riddim-GLiTCH/Virtual-Boy/pulls
@@ -25,6 +26,7 @@ Virtual Boy is a Discord theme based on a failed games console by Nintendo of th
 ##### Note: Custom Colorways work best if the values for `Primary`, `Secondary`, and `Tertiary` are put to 0
 
 ![Screenshot of the user-editable variables][edit-img]
+![colorwasy preview][colorways-preview]
 ![colors-preview][colors-preview]
 
 ## Virtual boy is responsive. Showing you only what you need, when you need it.
