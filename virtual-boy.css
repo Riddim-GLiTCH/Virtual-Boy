@@ -120,6 +120,19 @@ main[class^=chatContent] > form > * > [class^=attachedBars] {
   border-radius: 0px;
 }
 
+.discordColorway,
+.ColorwaySelectorBtn,
+.discordColorwayPreviewColor,
+.colorwaySettingsWrapper,
+.colorwayCreatorWrapper,
+.colorwayCreator-colorPreviews,
+.colorwayPreview-background,
+.choiceContainer,
+.colorwayCheckIconContainer,
+.colorwayInfoIconContainer {
+  border-radius: 0px !important;
+}
+
 @font-face {
   font-family: "FixedSysTrue";
   src: url("https://saltssaumure.github.io/pios-discord-theme/font/FixedSysTrue.ttf");
