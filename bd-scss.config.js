@@ -2,7 +2,7 @@
 export default {
     meta: {
         name: "Virtual Boy",
-        author: "Riddim_GLiTCH",
+        author: "Riddim_Girl",
         version: "1.3.2",
         description: "A theme based on a failed Nintendo console with the same name.",
         source: "https://github.com/Riddim-GLiTCH/Virtual-Boy",
