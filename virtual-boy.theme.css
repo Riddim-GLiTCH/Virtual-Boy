@@ -1,7 +1,7 @@
 /**
  * @name Virtual Boy
  * @author Riddim_Girl
- * @version 1.3.2
+ * @version 1.4
  * @description A theme based on a failed Nintendo console with the same name.
  * @source https://github.com/Riddim-GLiTCH/Virtual-Boy
  * @invite aYxpgkvdvR
@@ -12,6 +12,8 @@
 
 /* Comment out this line to disable message boxes */
 @import url("https://riddim-glitch.github.io/Virtual-Boy/MessageBoxes.css");
+/* Uncomment this line to use Right Alinged Selfmessages. Requires my helper plugin! Refer to the github repo for more information. */
+/* @import url("https://Riddim-GLiTCH.github.io/Virtual-Boy/selfmessages.css"); */
 :root {
   /* Don't like the colors? Change these HSL variables! */
   --VBaccent: 0 100% 50%;
