@@ -37,6 +37,7 @@
 
 #app-mount .selfmessage .contents-2MsGLg .messageContent-2t3eCI {
     margin-left: auto;
+    background-color: black !important;
 }
 #app-mount .selfmessage a:not(.embed-hKpSrO .embedAuthorNameLink-1NK1y6) {
     margin-left: auto;
@@ -73,7 +74,7 @@
 }
 
 #app-mount .contents-2MsGLg .messageContent-2t3eCI {
-    background-color: var(--background-secondary);
+    background-color: black !important;
     padding: 8px;
     margin-left: unset;
     border-radius: 0px;
@@ -88,7 +89,7 @@
 }
 #app-mount .message-2CShn3:hover:not(.replying-eZ7p5z):not(.mentioned-Tre-dv) .contents-2MsGLg .messageContent-2t3eCI,
 #app-mount .message-2CShn3.selected-2LX7Jy:not(.replying-eZ7p5z):not(.mentioned-Tre-dv) .contents-2MsGLg .messageContent-2t3eCI {
-    background-color: var(--background-secondary-alt);
+    background-color: black !important;
 }
 
 #app-mount .message-2CShn3.compact-2Nkcau.wrapper-30-Nkg[data-is-author-self="true"] .messageContent-2t3eCI {
@@ -134,7 +135,6 @@
 
 #app-mount .repliedMessage-3Z6XBG {
     background-color: var(--background-message-hover);
-    margin-bottom: 0;
     padding: 6px;
     border-radius: 0;
     width: fit-content;
@@ -167,4 +167,7 @@
 }
 .repliedMessage-3Z6XBG:before {
     display: none;
+}
+[class*="markup-"][class*="messageContent-"]:not([class*="repliedTextPreview-"][class*="clickable-"] > div) {
+    background: linear-gradient(to right, black, black) !important;
 }
