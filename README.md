@@ -8,12 +8,13 @@
 [selfmessage-preview]:https://github.com/Riddim-GLiTCH/Virtual-Boy/assets/87764384/a021504c-8b6d-419a-9a95-e1b4947a7b8d
 
 
-[pulls]:    https://github.com/Riddim-GLiTCH/Virtual-Boy/pulls
-[issues]:   https://github.com/Riddim-GLiTCH/Virtual-Boy/issues
-[colorways]:https://github.com/DaBluLite/DiscordColorways
-[releases]: https://github.com/Riddim-GLiTCH/Virtual-Boy/releases/latest
-[download]: https://github.com/Riddim-GLiTCH/Virtual-Boy/releases/latest/download/virtual-boy.theme.css
-[replugged]:https://replugged.dev/install?identifier=Riddim-GLiTCH/Virtual-Boy&source=github
+[pulls]:       https://github.com/Riddim-GLiTCH/Virtual-Boy/pulls
+[issues]:      https://github.com/Riddim-GLiTCH/Virtual-Boy/issues
+[colorways]:   https://github.com/DaBluLite/DiscordColorways
+[selfmessages]:https://github.com/Riddim-GLiTCH/BD-SelfMessages
+[releases]:    https://github.com/Riddim-GLiTCH/Virtual-Boy/releases/latest
+[download]:    https://github.com/Riddim-GLiTCH/Virtual-Boy/releases/latest/download/virtual-boy.theme.css
+[replugged]:   https://replugged.dev/install?identifier=Riddim-GLiTCH/Virtual-Boy&source=github
 
 ![Virtual Boy - A Discord theme inspired by the Virtual boy console][banner]
 ![preview-img][preview-img]
@@ -38,17 +39,20 @@ Virtual Boy is a Discord theme based on a failed games console by Nintendo of th
 ## Easily tell What messages are yours.
 ![selfmessage-preview][selfmessage-preview]
 With the new SelfMessages addon, Your messages will be shifted to the right side of the screen. Now you wont be confused when someone in the conversation has the same name as you!
-### Installation
 
-### BetterDiscord
+Note: This addon requires the use of my [Self-Messages plugin][selfmessages] to function!
+
+
+## Installation
+#### BetterDiscord
 > 1. Download the theme [here][download], or from the [releases][releases] tab, open your BetterDiscord themes folder, and move the theme there.<br>
 > 2. Download [Colorways][colorways] and place it in your plugins folder. You can then use Colorways to style your theme with a user friendly interface.
 
-### Vencord
+#### Vencord
 > Paste this line into your theme links: `https://raw.githubusercontent.com/Riddim-GLiTCH/Virtual-Boy/deploy/virtual-boy.theme.css`<br>
 > Please note that this method will not allow you to customize the appearance. <br>
 
-### Replugged
+#### Replugged
 > Install the theme [here][replugged]. <br>
 > if this link breaks, simply download the replugged bundle from the [releasese][releases] tab and extract it into your themes folder.
 
