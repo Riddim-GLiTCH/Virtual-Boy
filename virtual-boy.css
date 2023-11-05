@@ -807,7 +807,7 @@ html:has(#activeColorway:not(:empty)) .wordmarkWindows-2dq6rw::after {
   content: var(--version) " + Colorways";
 }
 
-#app-mount > div.typeWindows-2-g3UY.withFrame-2dL45i.titleBar-1it3bQ.horizontalReverse-2QssvL.flex-3BkGQD.directionRowReverse-HZatnx.justifyStart-2Mwniq.alignStretch-Uwowzr {
+#app-mount > div.typeWindows__5fa63.withFrame__485f4.titleBar__01af6.horizontalReverse_e078f3.flex__909d4.directionRowReverse__9f91b.justifyStart__42744.alignStretch_e239ef {
   line-height: 30px;
   align-items: center;
   height: 30px;
@@ -815,7 +815,7 @@ html:has(#activeColorway:not(:empty)) .wordmarkWindows-2dq6rw::after {
   margin-top: 0px;
 }
 
-.winButton-3UMjdg {
+.winButton__88672 {
   height: 30px;
   width: 46px;
   top: 0px;
