@@ -1,7 +1,7 @@
-.wordmarkWindows-2dq6rw svg {
+.wordmarkWindows__05c46 svg {
     display: none;
 }
-.wordmarkWindows-2dq6rw::after {
+.wordmarkWindows__05c46::after {
     content: var(--version);
     display: block;
     position: relative;
@@ -13,6 +13,6 @@
     font-size: 25px;
     color: var(--accent);
 }
-html:has(#activeColorway:not(:empty)) .wordmarkWindows-2dq6rw::after {
+html:has(#activeColorway:not(:empty)) .wordmarkWindows__05c46::after {
     content: var(--version) " + Colorways";
 }
