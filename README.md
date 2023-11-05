@@ -16,7 +16,6 @@
 [download]:    https://github.com/Riddim-GLiTCH/Virtual-Boy/releases/latest/download/virtual-boy.theme.css
 [replugged]:   https://replugged.dev/install?identifier=Riddim-GLiTCH/Virtual-Boy&source=github
 
-# IMPORTANT NOTICE: AS OF RECENTLY, THIS THEME IS NON-FUNCTIONAL. A REWRITE IS PLANNED. HOWEVER, I HAVE NO ETA ON WHEN IT WILL BE RELEASED.
 ![Virtual Boy - A Discord theme inspired by the Virtual boy console][banner]
 ![preview-img][preview-img]
 
