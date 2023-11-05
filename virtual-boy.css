@@ -22,7 +22,7 @@
   border-radius: 0px;
 }
 
-.theme-dark .autocomplete-3NRXG8 {
+.theme-dark .autocomplete_df266d {
   background-color: rgb(8, 8, 8);
 }
 
@@ -46,11 +46,11 @@ main[class^=chatContent] > form > * > [class^=attachedBars] {
 }
 
 /* Hide gift button */
-.buttons-uaqb-5 > .button-ejjZWC {
+.buttons_ce5b56 > .button_afdfd9 {
   display: none;
 }
 
-.contentWrapper-3vHNP2 {
+.contentWrapper__321ed {
   background-color: black;
   border-radius: 8px;
   box-shadow: var(--elevation-stroke), var(--elevation-high);
