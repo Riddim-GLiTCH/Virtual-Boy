@@ -700,7 +700,7 @@ span[class*=username-][class*=desaturateUserColors-][class*=clickable] {
 }
 
 /* add @ to profile pop up */
-.userTagWithNickname-13lfvd::before {
+.userTagWithNickname__1eba9::before {
   content: "@";
   color: var(--header-primary);
   line-height: 18px;
@@ -717,22 +717,22 @@ div[class*=lineClamp2Plus] {
   margin: 0 !important;
 }
 
-.divider-2dDziJ:hover {
+.divider_ed0c1d:hover {
   position: absolute;
   bottom: 955px;
   left: 573px;
 }
 
-.layer-2BGhQ8:has(img[src*="801089753038061669"]) .profileBadges-2pItdR {
+.layer_ec16dd:has(img[src*="801089753038061669"]) .profileBadges__7a7cb {
   padding-right: 30px;
 }
 
-.layer-2BGhQ8:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground-3A0Pcz {
+.layer_ec16dd:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground_d8afa4 {
   position: relative;
   overflow: visible;
 }
 
-.layer-2BGhQ8:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ {
+.layer_ec16dd:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground_d8afa4 > .divider_ed0c1d {
   width: 22px;
   height: 22px;
   background-color: transparent !important;
@@ -745,12 +745,12 @@ div[class*=lineClamp2Plus] {
   box-sizing: border-box;
 }
 
-.layer-2BGhQ8:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ:before,
-.layer-2BGhQ8:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ:after {
+.layer_ec16dd:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground_d8afa4 > .divider_ed0c1d:before,
+.layer_ec16dd:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground_d8afa4 > .divider_ed0c1d:after {
   pointer-events: none;
 }
 
-.layer-2BGhQ8:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ:before {
+.layer_ec16dd:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground_d8afa4 > .divider_ed0c1d:before {
   content: "";
   display: flex;
   height: 22px;
@@ -761,7 +761,7 @@ div[class*=lineClamp2Plus] {
   border-radius: 0px;
 }
 
-.layer-2BGhQ8:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ:after {
+.layer_ec16dd:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground_d8afa4 > .divider_ed0c1d:after {
   content: "Virtual Boy Theme Dev";
   width: -moz-max-content;
   width: max-content;
@@ -778,7 +778,7 @@ div[class*=lineClamp2Plus] {
   transition: opacity 0ms linear;
 }
 
-.layer-2BGhQ8:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ:hover:after {
+.layer_ec16dd:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground_d8afa4 > .divider_ed0c1d:hover:after {
   opacity: 1;
 }
 
