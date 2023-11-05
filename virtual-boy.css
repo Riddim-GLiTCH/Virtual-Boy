@@ -66,14 +66,14 @@ main[class^=chatContent] > form > * > [class^=attachedBars] {
   z-index: 1;
 }
 
-.theme-dark .container-2IKOsH,
-.theme-dark .header-3xB4vB,
-.theme-dark .emptyPage-2TGR7j,
-.theme-dark .scrollerContainer-y16Rs9 {
+.theme-dark .container__10dc7,
+.theme-dark .header__60bef,
+.theme-dark .emptyPage__3e15d,
+.theme-dark .scrollerContainer_bf5dbd {
   background: black;
 }
 
-.row--LCpto:hover {
+.row__70f4c:hover {
   background: var(--accent-dimmest);
 }
 
