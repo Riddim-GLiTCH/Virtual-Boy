@@ -30,12 +30,12 @@ Virtual Boy is a Discord theme based on a failed games console by Nintendo of th
 ![colors-preview][colors-preview]
 
 ## Virtual boy is responsive. Showing you only what you need, when you need it.
-![hover-preview][hover-preview]
+![hover-preview][hover-preview]<br>
 ![compact-preview][compact-preview]
 
 
 ## Easily tell What messages are yours.
-![selfmessage-preview][selfmessage-preview]
+![selfmessage-preview][selfmessage-preview]<br>
 With the new SelfMessages addon, Your messages will be shifted to the right side of the screen. Now you wont be confused when someone in the conversation has the same name as you!
 
 Note: This addon requires the use of my [Self-Messages plugin][selfmessages] to function!
