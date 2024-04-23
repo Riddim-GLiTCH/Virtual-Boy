@@ -1,4 +1,4 @@
-[class*=markup-][class*=messageContent-]:not([class*=repliedTextPreview-][class*=clickable-] > div) {
+[class*=markup][class*=messageContent]:not([class*=repliedTextPreview][class*=clickable] > div) {
   margin: 1px 0 1px 0;
   padding: 7px 10px 7px 10px;
   width: -moz-fit-content;
@@ -9,19 +9,19 @@
   box-shadow: 0px 0px 0px 0px var(--accent);
 }
 
-[class*=replying-]::before,
-[class*=mentioned-]::before {
+[class*=replying]::before,
+[class*=mentioned]::before {
   display: none;
 }
 
-[class*=contents-] {
+[class*=contents] {
   max-width: -moz-max-content;
   max-width: max-content;
   margin-left: 10px;
 }
 
-[class*=groupStart-][class*=cozyMessage-] > [class*=contents-],
-[class*=cozyMessage-]:not([class*=groupStart-]) > [class*=contents-] > [class*=markup]:not(:empty, [class*=searchResultsWrap]) {
+[class*=groupStart][class*=cozyMessage] > [class*=contents],
+[class*=cozyMessage]:not([class*=groupStart]) > [class*=contents] > [class*=markup]:not(:empty, [class*=searchResultsWrap]) {
   margin: 0;
   padding: 10px;
   border-radius: 0;
@@ -30,41 +30,41 @@
   /* box-shadow: -6px 6px 0px 0px hsl(var(--primary-700-hsl)/0.25), 0 0 1px 1px hsl(var(--primary-700-hsl)/0.5); OPTIONAL */
 }
 
-[class*=groupStart-][class*=cozyMessage-]:hover > [class*=contents-],
-[class*=cozyMessage-]:not([class*=groupStart-]):hover > [class*=contents-] > [class*=markup]:not(:empty, [class*=searchResultsWrap]) {
+[class*=groupStart][class*=cozyMessage]:hover > [class*=contents],
+[class*=cozyMessage]:not([class*=groupStart]):hover > [class*=contents] > [class*=markup]:not(:empty, [class*=searchResultsWrap]) {
   background: var(--accent-muted) !important;
 }
 
-[class*=groupStart-][class*=cozyMessage-][class*=replying-] > [class*=contents-],
-[class*=cozyMessage-]:not([class*=groupStart-])[class*=replying-] > [class*=contents-] > [class*=markup]:not(:empty, [class*=searchResultsWrap]) {
+[class*=groupStart][class*=cozyMessage][class*=replying] > [class*=contents],
+[class*=cozyMessage]:not([class*=groupStart])[class*=replying] > [class*=contents] > [class*=markup]:not(:empty, [class*=searchResultsWrap]) {
   background: var(--accent-dimmest) !important;
   border: 2px solid var(--accent);
 }
 
-[class*=groupStart-][class*=cozyMessage-][class*=replying-]:hover > [class*=contents-],
-[class*=cozyMessage-]:not([class*=groupStart-])[class*=replying-]:hover > [class*=contents-] > [class*=markup]:not(:empty, [class*=searchResultsWrap]) {
+[class*=groupStart][class*=cozyMessage][class*=replying]:hover > [class*=contents],
+[class*=cozyMessage]:not([class*=groupStart])[class*=replying]:hover > [class*=contents] > [class*=markup]:not(:empty, [class*=searchResultsWrap]) {
   background: var(--accent-muted) !important;
 }
 
-[class*=contents-] [class*=avatar-][class*=clickable-] {
+[class*=contents] [class*=avatar][class*=clickable] {
   margin-top: calc(-4px - 0.125rem);
   scale: 1.15;
 }
 
-[class*=contents-] [class*=avatarDecoration-] {
+[class*=contents] [class*=avatarDecoration] {
   margin-top: calc(-8px - 0.125rem);
   scale: 1.15;
 }
 
-[class*=groupStart-][class*=cozyMessage-][class*=mentioned-] > [class*=contents-],
-[class*=cozyMessage-]:not([class*=groupStart-])[class*=mentioned-] > [class*=contents-] > [class*=markup]:not(:empty, [class*=searchResultsWrap]) {
+[class*=groupStart][class*=cozyMessage][class*=mentioned] > [class*=contents],
+[class*=cozyMessage]:not([class*=groupStart])[class*=mentioned] > [class*=contents] > [class*=markup]:not(:empty, [class*=searchResultsWrap]) {
   background: var(--accent-muted) !important;
   border: 2px solid var(--accent);
   border-radius: 0;
 }
 
-[class*=groupStart-][class*=cozyMessage-][class*=mentioned-]:hover > [class*=contents-],
-[class*=cozyMessage-]:not([class*=groupStart-])[class*=mentioned-]:hover > [class*=contents-] > [class*=markup]:not(:empty, [class*=searchResultsWrap]) {
+[class*=groupStart][class*=cozyMessage][class*=mentioned]:hover > [class*=contents],
+[class*=cozyMessage]:not([class*=groupStart])[class*=mentioned]:hover > [class*=contents] > [class*=markup]:not(:empty, [class*=searchResultsWrap]) {
   background: var(--accent-dimmest) !important;
 }
 
