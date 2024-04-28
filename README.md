@@ -48,7 +48,16 @@ Note: This addon requires the use of my [Self-Messages plugin][selfmessages] to 
 
 #### Vencord
 > Paste this line into your theme links: `https://raw.githubusercontent.com/Riddim-GLiTCH/Virtual-Boy/deploy/virtual-boy.theme.css`<br>
-> Please note that this method will not allow you to customize the appearance. <br>
+> Copy this into your QuickCSS tab and modify the values accordign to your liking.
+> ```css
+> :root {
+>  /* Don't like the colors? Change these HSL variables! */
+>  --VBaccent: 0 100% 50%;
+>  --VBaccent-muted: 0 100% 39.2%;
+>  --VBaccent-dimmest: 0 100% 17.6%;
+>  --text-shadow-size: 1px; /*Default: 1px*/
+> }
+> ```
 
 #### Replugged
 > Install the theme [here][replugged]. <br>
