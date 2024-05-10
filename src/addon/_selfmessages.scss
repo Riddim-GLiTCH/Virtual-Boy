@@ -1,7 +1,7 @@
 /** 
  * Selfmessages. Heavily based on Discord 11's Message bubbles
  * Message Bubbles
- * Modified by x3non to work with Vencord
+ * Modified (for Virtual Boy) by x3non to work in Vencord
  */
 
 #app-mount [class^="messageListItem__"][data-is-self="true"] {
@@ -131,7 +131,7 @@
     background-color: var(--background-mentioned-hover);
 
 #app-mount .mentioned_fa6fd2 .contents_d3ae0d .messageContent_abea64::before {
-	background-color: var(--info-warning-foreground);
+    background-color: var(--info-warning-foreground);
     content: "";
     position: absolute;
     display: block;
@@ -145,7 +145,7 @@
 }
 
 #app-mount .repliedMessage__636d2 {
-	background-color: var(--background-mentioned-hover);
+    background-color: var(--background-message-hover);
     padding: 6px;
     width: fit-content;
     max-width: 100%;
