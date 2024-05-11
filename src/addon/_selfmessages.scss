@@ -19,7 +19,8 @@
 	padding-right: 8px;
 }
 
-#app-mount [class^="messageListItem__"][data-is-self="true"] .groupStart__7b93c:not(.markup_a7e664), {
+#app-mount [class^="messageListItem__"][data-is-self="true"] .groupStart__7b93c:not(.markup_a7e664),
+#app-mount .selfmessage .groupStart__7b93c:not(.markup_a7e664){
 	text-align: right;
 	padding-right: 8px;
 }
