@@ -1,16 +1,34 @@
-/* Message Bubbles*/
+/* Selfmessages. Heavily based on Discord 11's Message bubbles */
+/* Message Bubbles */
+/* Modified by x3non to work with Vencord */
 /* New Messages bubble */
+#app-mount [class^=messageListItem__][data-is-self=true],
 #app-mount .message_ccca67[data-author-self=true] {
   margin-left: auto;
   width: auto;
   padding-left: 48px;
-  padding-right: 72px !important;
+  padding-right: 16px !important;
 }
 
+#app-mount [class^=messageListItem__][data-is-self=true] .container__62863,
 #app-mount .message_ccca67[data-author-self=true] .container__62863 {
   direction: rtl;
+  text-align: right;
+  padding-right: 8px;
 }
 
+#app-mount [class^=messageListItem__][data-is-self=true] .groupStart__7b93c:not(.markup_a7e664),
+#app-mount .message_ccca67[data-author-self=true] .groupStart__7b93c:not(.markup_a7e664) {
+  text-align: right;
+  padding-right: 8px;
+}
+
+#app-mount [class^=messageListItem__][data-is-self=true] .groupStart__7b93c > .contents_d3ae0d > .markup_a7e664,
+#app-mount .message_ccca67[data-author-self=true] .groupStart__7b93c > .contents_d3ae0d > .markup_a7e664 {
+  text-align: left;
+}
+
+#app-mount [class^=messageListItem__][data-is-self=true] .contents_d3ae0d,
 #app-mount .message_ccca67[data-author-self=true] .contents_d3ae0d {
   display: block;
   width: -moz-fit-content;
@@ -19,54 +37,59 @@
   margin-right: 8px;
 }
 
+#app-mount [class^=messageListItem__][data-is-self=true].message_ccca67.selected_e3bc5d .contents_d3ae0d,
 #app-mount .message_ccca67.selected_e3bc5d[data-author-self=true] .contents_d3ae0d {
   width: 100%;
 }
 
+#app-mount [class^=messageListItem__][data-is-self=true] .timestamp_c79dd2,
 #app-mount .message_ccca67[data-author-self=true] .timestamp_c79dd2 {
   left: unset;
   right: 8px;
+  margin-top: 1.75px;
 }
 
-#app-mount .message_ccca67[data-author-self=true] .repliedMessage__636d2 {
-  margin-left: auto;
-}
-
+#app-mount [class^=messageListItem__][data-is-self=true] .replying__38514 .contents_d3ae0d .messageContent_abea64::before,
+#app-mount [class^=messageListItem__][data-is-self=true] .mentioned_fa6fd2 .contents_d3ae0d .messageContent_abea64::before,
 #app-mount .replying__38514[data-author-self=true] .contents_d3ae0d .messageContent_abea64::before,
 #app-mount .mentioned_fa6fd2[data-author-self=true] .contents_d3ae0d .messageContent_abea64::before {
   left: unset;
   right: 0;
 }
 
+#app-mount [class^=messageListItem__][data-is-self=true] .contents_d3ae0d .messageContent_abea64,
 #app-mount .message_ccca67[data-author-self=true] .contents_d3ae0d .messageContent_abea64 {
   margin-left: auto;
+  background-color: black !important;
 }
 
-#app-mount .message_ccca67[data-author-self=true] a:not(.embed_cc6dae .embedAuthorNameLink_dd0d5f) {
+#app-mount [class^=messageListItem__][data-is-self=true] a:not(.embed_cc6dae .embedAuthorNameLink_dd0d5f),
+#app-mount [class^=messageListItem__][data-is-self=true] .repliedMessage__636d2 #app-mount .message_ccca67[data-author-self=true] a:not(.embed_cc6dae .embedAuthorNameLink_dd0d5f),
+#app-mount .message_ccca67[data-author-self=true] .repliedMessage__636d2 {
   margin-left: auto;
 }
 
+#app-mount [class^=messageListItem__][data-is-self=true] .embedAuthor__3e899,
 #app-mount .message_ccca67[data-author-self=true] .embedAuthor__3e899 {
   direction: ltr;
 }
 
+#app-mount [class^=messageListItem__][data-is-self=true] .avatar__08316,
 #app-mount .message_ccca67[data-author-self=true] .avatar__08316 {
   left: unset;
-  right: 16px;
+  right: 4px;
 }
 
+#app-mount [class^=messageListItem__][data-is-self=true] .header__6a14d,
 #app-mount .message_ccca67[data-author-self=true] .header__6a14d {
   display: flex;
   flex-direction: row-reverse;
 }
 
+#app-mount [class^=messageListItem__][data-is-self=true] .header__6a14d span,
 #app-mount .message_ccca67[data-author-self=true] .header__6a14d span {
   margin-left: 0.25rem;
   margin-right: unset;
-}
-
-#app-mount .message_ccca67[data-author-self=true] .repliedMessage__636d2:before {
-  display: none;
 }
 
 #app-mount .contents_d3ae0d > .messageContent_abea64 {
@@ -100,7 +123,7 @@
   background-color: var(--background-secondary-alt);
 }
 
-#app-mount .message_ccca67.compact_eda3c8.wrapper_a62503[data-author-self=true] .messageContent_abea64 {
+#app-mount [class^=messageListItem__][data-is-self=true] .compact_eda3c8.wrapper_a62503 .messageContent_abea64 #app-mount .message_ccca67.compact_eda3c8.wrapper_a62503[data-author-self=true] .messageContent_abea64 {
   display: flex;
 }
 
@@ -109,10 +132,9 @@
   padding-bottom: 8px;
 }
 
-#app-mount .mentioned_fa6fd2.compact_eda3c8 .contents_d3ae0d .messageContent_abea64::before:not([data-author-self=true]) {
-  left: 4px;
-}
-
+#app-mount .mentioned_fa6fd2.compact_eda3c8 .contents_d3ae0d .messageContent_abea64::before:not([class^=messageListItem__][data-is-self=true]),
+#app-mount .replying__38514.compact_eda3c8 .contents_d3ae0d .messageContent_abea64::before:not([class^=messageListItem__][data-is-self=true]),
+#app-mount .mentioned_fa6fd2.compact_eda3c8 .contents_d3ae0d .messageContent_abea64::before:not([data-author-self=true]),
 #app-mount .replying__38514.compact_eda3c8 .contents_d3ae0d .messageContent_abea64::before:not([data-author-self=true]) {
   left: 4px;
 }
@@ -139,10 +161,6 @@
   margin: 8px 0;
   border-radius: 1.5px;
   z-index: 1;
-}
-
-#app-mount .mentioned_fa6fd2:before {
-  display: none;
 }
 
 #app-mount .repliedMessage__636d2 {
@@ -179,10 +197,12 @@
   z-index: 1;
 }
 
-.replying__38514:before {
-  display: none;
-}
-
-.repliedMessage__636d2:before {
+#app-mount [class^=messageListItem__][data-is-self=true] .repliedMessage__636d2:before,
+#app-mount .message_ccca67[data-author-self=true] .repliedMessage__636d2:before,
+#app-mount .mentioned_fa6fd2:before,
+.replying__38514:before,
+.repliedMessage__636d2:before,
+.spine_d081ec.cozy__0c529,
+.message_ccca67::after {
   display: none;
 }
