@@ -1,121 +1,121 @@
 //Selfmessages. Heavily based on Discord 11's Message bubbles
 /* Message Bubbles*/
-#app-mount .selfmessage {
+   /* New Messages bubble */
+   #app-mount .message_ccca67[data-author-self=true] {
     margin-left: auto;
     width: auto;
     padding-left: 48px;
     padding-right: 72px !important;
-}
-
-#app-mount .selfmessage .container_dbadf5 {
+  }
+  
+  #app-mount .message_ccca67[data-author-self=true] .container__62863 {
     direction: rtl;
-}
-
-#app-mount .selfmessage .contents_f41bb2 {
+  }
+  
+  #app-mount .message_ccca67[data-author-self=true] .contents_d3ae0d {
     display: block;
     width: fit-content;
     margin-left: auto;
     margin-right: 8px;
-}
-#app-mount .message__80c10.selected_fd9051[data-is-author-self="true"] .contents_f41bb2 {
+  }
+  #app-mount .message_ccca67.selected_e3bc5d[data-author-self=true] .contents_d3ae0d {
     width: 100%;
-}
-
-#app-mount .selfmessage .timestamp_cdbd93 {
+  }
+  
+  #app-mount .message_ccca67[data-author-self=true] .timestamp_c79dd2 {
     left: unset;
     right: 8px;
-}
-#app-mount .selfmessage .repliedMessage_e2bf4a {
+  }
+  #app-mount .message_ccca67[data-author-self=true] .repliedMessage__636d2 {
     margin-left: auto;
-}
-
-#app-mount .replying_d7b6ad[data-is-author-self="true"] .contents_f41bb2 .messageContent__21e69::before,
-#app-mount .mentioned__58017[data-is-author-self="true"] .contents_f41bb2 .messageContent__21e69::before {
+  }
+  
+  #app-mount .replying__38514[data-author-self=true] .contents_d3ae0d .messageContent_abea64::before,
+  #app-mount .mentioned_fa6fd2[data-author-self=true] .contents_d3ae0d .messageContent_abea64::before {
     left: unset;
     right: 0;
-}
-
-#app-mount .selfmessage .contents_f41bb2 .messageContent__21e69 {
+  }
+  
+  #app-mount .message_ccca67[data-author-self=true] .contents_d3ae0d .messageContent_abea64 {
     margin-left: auto;
-    background-color: black !important;
-}
-#app-mount .selfmessage a:not(.embed_d3cbe3 .embedAuthorNameLink_b25226) {
+  }
+  #app-mount .message_ccca67[data-author-self=true] a:not(.embed_cc6dae .embedAuthorNameLink_dd0d5f) {
     margin-left: auto;
-}
-
-#app-mount .selfmessage .embedAuthor_cb4bfc {
+  }
+  
+  #app-mount .message_ccca67[data-author-self=true] .embedAuthor__3e899 {
     direction: ltr;
-}
-
-#app-mount .selfmessage .avatar__08316 {
+  }
+  
+  #app-mount .message_ccca67[data-author-self=true] .avatar__08316 {
     left: unset;
     right: 16px;
-}
-
-#app-mount .selfmessage .header__39b23 {
+  }
+  
+  #app-mount .message_ccca67[data-author-self=true] .header__6a14d {
     display: flex;
     flex-direction: row-reverse;
-}
-#app-mount .selfmessage .header__39b23 span {
-    margin-left: 0.25rem;
+  }
+  #app-mount .message_ccca67[data-author-self=true] .header__6a14d span {
+    margin-left: .25rem;
     margin-right: unset;
-}
-
-#app-mount .selfmessage .repliedMessage_e2bf4a:before {
+  }
+  
+  #app-mount .message_ccca67[data-author-self=true] .repliedMessage__636d2:before {
     display: none;
-}
-
-#app-mount .contents_f41bb2 > .messageContent__21e69 {
+  }
+  
+  #app-mount .contents_d3ae0d > .messageContent_abea64 {
     overflow: visible;
-}
-
-#app-mount .contents_f41bb2 pre {
+  }
+  
+  #app-mount .contents_d3ae0d pre {
     max-width: 100%;
-}
-
-#app-mount .contents_f41bb2 .messageContent__21e69 {
-    background-color: black !important;
+  }
+  
+  #app-mount .contents_d3ae0d .messageContent_abea64 {
+    background-color: var(--background-secondary)!important;
     padding: 8px;
     margin-left: unset;
     border-radius: 0px;
     width: fit-content;
-}
-#app-mount .contents_f41bb2 {
+  }
+  #app-mount .contents_d3ae0d {
     display: inline-block;
     max-width: 100%;
-}
-#app-mount .message__80c10 {
+  }
+  #app-mount .message_ccca67 {
     max-width: 100%;
-}
-#app-mount .message__80c10:hover:not(.replying_d7b6ad):not(.mentioned__58017) .contents_f41bb2 .messageContent__21e69,
-#app-mount .message__80c10.selected_fd9051:not(.replying_d7b6ad):not(.mentioned__58017) .contents_f41bb2 .messageContent__21e69 {
-    background-color: black !important;
-}
-
-#app-mount .message__80c10.compact__54ecc.wrapper__09ecc[data-is-author-self="true"] .messageContent__21e69 {
+  }
+  #app-mount .message_ccca67:hover:not(.replying__38514):not(.mentioned_fa6fd2) .contents_d3ae0d .messageContent_abea64,
+  #app-mount .message_ccca67.selected_e3bc5d:not(.replying__38514):not(.mentioned_fa6fd2) .contents_d3ae0d .messageContent_abea64 {
+    background-color: var(--background-secondary-alt);
+  }
+  
+  #app-mount .message_ccca67.compact_eda3c8.wrapper_a62503[data-author-self=true] .messageContent_abea64 {
     display: flex;
-}
-
-#app-mount .compact__54ecc.wrapper__09ecc {
+  }
+  
+  #app-mount .compact_eda3c8.wrapper_a62503 {
     padding-top: 8px;
     padding-bottom: 8px;
-}
-
-#app-mount .mentioned__58017.compact__54ecc .contents_f41bb2 .messageContent__21e69::before:not([data-is-author-self="true"]) {
+  }
+  
+  #app-mount .mentioned_fa6fd2.compact_eda3c8 .contents_d3ae0d .messageContent_abea64::before:not([data-author-self=true]) {
     left: 4px;
-}
-#app-mount .replying_d7b6ad.compact__54ecc .contents_f41bb2 .messageContent__21e69::before:not([data-is-author-self="true"]) {
+  }
+  #app-mount .replying__38514.compact_eda3c8 .contents_d3ae0d .messageContent_abea64::before:not([data-author-self=true]) {
     left: 4px;
-}
-
-#app-mount .mentioned__58017 .contents_f41bb2 .messageContent__21e69 {
+  }
+  
+  #app-mount .mentioned_fa6fd2 .contents_d3ae0d .messageContent_abea64 {
     background-color: var(--background-mentioned);
-}
-#app-mount .mentioned__58017:hover .contents_f41bb2 .messageContent__21e69,
-#app-mount .mentioned__58017.selected_fd9051 .contents_f41bb2 .messageContent__21e69 {
+  }
+  #app-mount .mentioned_fa6fd2:hover .contents_d3ae0d  .messageContent_abea64,
+  #app-mount .mentioned_fa6fd2.selected_e3bc5d .contents_d3ae0d .messageContent_abea64 {
     background-color: var(--background-mentioned-hover);
-}
-#app-mount .mentioned__58017 .contents_f41bb2 .messageContent__21e69::before {
+  }
+  #app-mount .mentioned_fa6fd2 .contents_d3ae0d .messageContent_abea64::before {
     background-color: var(--info-warning-foreground);
     content: "";
     position: absolute;
@@ -126,29 +126,30 @@
     pointer-events: none;
     width: 3px;
     margin: 8px 0;
-    border-radius: 0;
+    border-radius: 1.5px;
     z-index: 1;
-}
-#app-mount .mentioned__58017:before {
+  }
+  #app-mount .mentioned_fa6fd2:before {
     display: none;
-}
-
-#app-mount .repliedMessage_e2bf4a {
+  }
+  
+  #app-mount .repliedMessage__636d2 {
     background-color: var(--background-message-hover);
+    margin-bottom: 0;
     padding: 6px;
-    border-radius: 0;
+    border-radius: 5px;
     width: fit-content;
     max-width: 100%;
-}
-
-#app-mount .replying_d7b6ad .contents_f41bb2 .messageContent__21e69 {
+  }
+  
+  #app-mount .replying__38514 .contents_d3ae0d .messageContent_abea64 {
     background-color: var(--brand-experiment-05a);
-}
-#app-mount .replying_d7b6ad:hover .contents_f41bb2 .messageContent__21e69,
-#app-mount .replying_d7b6ad.selected_fd9051 .contents_f41bb2 .messageContent__21e69 {
+  }
+  #app-mount .replying__38514:hover .contents_d3ae0d .messageContent_abea64,
+  #app-mount .replying__38514.selected_e3bc5d .contents_d3ae0d .messageContent_abea64 {
     background-color: var(--brand-experiment-10a);
-}
-#app-mount .replying_d7b6ad .contents_f41bb2 .messageContent__21e69::before {
+  }
+  #app-mount .replying__38514 .contents_d3ae0d .messageContent_abea64::before {
     background-color: var(--brand-experiment);
     content: "";
     position: absolute;
@@ -159,15 +160,12 @@
     pointer-events: none;
     width: 3px;
     margin: 8px 0;
-    border-radius: 0;
+    border-radius: 1.5px;
     z-index: 1;
-}
-.replying_d7b6ad:before {
+  }
+  .replying__38514:before {
     display: none;
-}
-.repliedMessage_e2bf4a:before {
+  }
+  .repliedMessage__636d2:before {
     display: none;
-}
-[class*="markup-"][class*="messageContent-"]:not([class*="repliedTextPreview-"][class*="clickable-"] > div) {
-    background: linear-gradient(to right, black, black) !important;
-}
+  }
